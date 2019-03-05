@@ -1,5 +1,4 @@
-
-function main (){
+greg
     console.log("Sup");
 }
 
