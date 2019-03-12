@@ -307,5 +307,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 7172929194907226457, guid: 5aa7d1340913816459f1b5ae071602c3, type: 3}
-  width: 5
-  length: 5
+  size: 5
