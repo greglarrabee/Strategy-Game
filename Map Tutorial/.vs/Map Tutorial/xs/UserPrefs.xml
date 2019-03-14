@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{F4958032-113E-50E2-934D-C55F7B4B09DB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HexMesh.cs">
+    <Files>
+      <File FileName="Assets/HexCell.cs" Line="7" Column="34" />
+      <File FileName="Assets/HexMesh.cs" Line="21" Column="7" />
+      <File FileName="Assets/HexGrid.cs" Line="56" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
