@@ -18,7 +18,7 @@ public class HexMesh : MonoBehaviour
         vertices = new List<Vector3>();
         triangles = new List<int>();
     }
-    /*
+    
 
      public void Triangulate(HexCell[] cells)
      {
@@ -38,5 +38,5 @@ public class HexMesh : MonoBehaviour
      {
 
      }
-     */
+     
 }
