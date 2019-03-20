@@ -22,6 +22,11 @@ public struct HexCoordinates
         { return z; }
     }
 
+    public int Y
+    {
+        get { return -X - Z; }
+    }
+
     // Only two coordinates needed to establish unique position on grid
     public HexCoordinates(int x, int z)
     {
@@ -29,6 +34,7 @@ public struct HexCoordinates
         this.z = z;
     }
 
+    // To find hex coordinates upon grid initialization
     public static HexCoordinates FromOffsetCoordinates(int x, int z)
     {
         return new HexCoordinates(x - z / 2, z);
@@ -57,7 +63,8 @@ public struct HexCoordinates
             float dY = Mathf.Abs(y - iY);
             float dZ = Mathf.Abs(-x - y - iZ);
 
-            if (dX > dY && dX < dZ)
+            // Reconstruct least accurate coordinate
+            if (dX > dY && dX > dZ)
             {
                 iX = -iY - iZ;
             }
@@ -70,11 +77,17 @@ public struct HexCoordinates
         return new HexCoordinates(iX, iZ);
     }
 
-    public int Y
+    // Converts HexCoordinates to actual 2D positions
+    public static Vector2 fromHexCoordinates(HexCoordinates coords)
     {
-        get { return -X - Z; }
+        float cX = coords.X;
+        float cZ = coords.Z;
+        float x = (cX * 2 + cZ) * HexMetrics.innerRadius;
+        float z = cZ * (1.5f * HexMetrics.outerRadius);
+        return new Vector2(x, z);
     }
 
+    // For internal debugging
     public override string ToString()
     {
         return "(" + X.ToString() + ", " + Y.ToString() + ", " + Z.ToString() + ")";

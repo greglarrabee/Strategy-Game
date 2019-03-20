@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿// Contains the whole hex grid 
+using UnityEngine;
 using UnityEngine.UI;
 
 public class HexGrid : MonoBehaviour
@@ -10,7 +11,6 @@ public class HexGrid : MonoBehaviour
     HexCell[] cells;
 
     public Text cellLabelPrefab;
-
     Canvas gridCanvas;
 
     HexMesh hexMesh;
@@ -77,6 +77,6 @@ public class HexGrid : MonoBehaviour
     {
         position = transform.InverseTransformPoint(position);
         HexCoordinates coords = HexCoordinates.FromPosition(position);
-        Debug.Log("touched at " + coords.ToString());
+        //Debug.Log("touched at " + coords.ToString());
     }
 }

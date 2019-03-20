@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿// Property drawer showing uneditable hex coordinates of a tile
+using UnityEngine;
 using UnityEditor;
 
 [CustomPropertyDrawer(typeof(HexCoordinates))]

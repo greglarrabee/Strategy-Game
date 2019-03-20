@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿// The object that populates the grid
 using UnityEngine;
 
 public class HexCell : MonoBehaviour
