@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UnitHandler : MonoBehaviour
 {
@@ -9,14 +10,20 @@ public class UnitHandler : MonoBehaviour
     private Unit[] units;
     private GameObject[] unitObjects;
     private Mesh swordMesh;
+    public Text unitText;
+    public int numUnits;
 
     // Initialize some constants, set up the board
     void Awake()
     {
         swordMesh = (Mesh)Resources.Load("Models/sword",typeof(Mesh));
-        units = new Unit[1];
-        unitObjects = new GameObject[1];
-        initS(new HexCoordinates(2, 3), swordMesh, 0);
+        units = new Unit[numUnits];
+        unitObjects = new GameObject[numUnits];
+        // Add units
+        for(int i = 0; i < numUnits; i++)
+        {
+            initS(new HexCoordinates(i, 0), swordMesh, i);
+        }
         selected = -1;
     }
 
@@ -66,11 +73,13 @@ public class UnitHandler : MonoBehaviour
         {
             string name = hit.collider.gameObject.name;
             selected = name[name.Length - 1] - '0';
+            unitText.text = "Selected " + name;
             //Debug.Log(name);
         }
         else
         {
             selected = -1;
+            unitText.text = "No unit selected";
             //Debug.Log("no hit");
         }
     }
