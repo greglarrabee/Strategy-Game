@@ -11,22 +11,24 @@ public class Unit : ScriptableObject
     public int atkRangeMin { get; protected set; }
     public int atkRangeMax { get; protected set; }
     public int maxHealth { get; protected set; }
-    // Unit's mesh height
+    // Unit's mesh height (for positioning)
     public float meshHeight;
     // Status
     public int health { get; protected set; }
-    //public bool selected = false;
+    public bool moved;
     // The actual GameObject
     GameObject obj;
 
     public int id;
 
+    // Place unit at correct world place
     public void setPos()
     {
         Vector2 xzPos = HexCoordinates.fromHexCoordinates(coords);
         obj.transform.SetPositionAndRotation(new Vector3(xzPos[0], meshHeight / 2, xzPos[1]), Quaternion.identity);
     }
 
+    // Give unit a GameObject to handle
     public void setObject(GameObject o)
     {
         obj = o;

@@ -13,20 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-03-28T21:47:09.992-07:00
-  initializedAtString: 2019-03-28T20:49:54.711-07:00
+  lastUpdatedAtString: 2019-03-29T09:25:16.699-07:00
+  initializedAtString: 2019-03-29T09:03:47.646-07:00
   entries:
   - path: StrategyGame\.vs\StrategyGame\v15\.suo
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\.vs\StrategyGame\v15\.suo
     projectPath: .vs\StrategyGame\v15\.suo
     originalPath: 
     status: 3
-    staged: 0
-  - path: StrategyGame\.vs\StrategyGame\v15\Browse.VC.db
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\.vs\StrategyGame\v15\Browse.VC.db
-    projectPath: .vs\StrategyGame\v15\Browse.VC.db
-    originalPath: 
-    status: 1
     staged: 0
   - path: StrategyGame\.vs\StrategyGame\v15\Server\sqlite3\storage.ide
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\.vs\StrategyGame\v15\Server\sqlite3\storage.ide
@@ -46,36 +40,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: StrategyGame\Assembly-CSharp.csproj
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\Assets\_Scenes\Map.unity
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Assets\_Scenes\Map.unity
-    projectPath: Assets\_Scenes\Map.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\Assets\Scripts\HexGrid.cs
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Assets\Scripts\HexGrid.cs
-    projectPath: Assets\Scripts\HexGrid.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\Assets\Scripts\PostEffect.cs
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Assets\Scripts\PostEffect.cs
-    projectPath: Assets\Scripts\PostEffect.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Assets\Scripts\PostEffect.cs.meta
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Assets\Scripts\PostEffect.cs.meta
-    projectPath: Assets\Scripts\PostEffect.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
   - path: StrategyGame\Assets\Scripts\Sword.cs
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Assets\Scripts\Sword.cs
     projectPath: Assets\Scripts\Sword.cs
@@ -94,47 +58,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: StrategyGame\Assets\Shaders.meta
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Assets\Shaders.meta
-    projectPath: Assets\Shaders.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Assets\Shaders\DrawSimple.shader
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Assets\Shaders\DrawSimple.shader
-    projectPath: Assets\Shaders\DrawSimple.shader
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Assets\Shaders\DrawSimple.shader.meta
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Assets\Shaders\DrawSimple.shader.meta
-    projectPath: Assets\Shaders\DrawSimple.shader.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Assets\Shaders\PostOutline.shader
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Assets\Shaders\PostOutline.shader
-    projectPath: Assets\Shaders\PostOutline.shader
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Assets\Shaders\PostOutline.shader.meta
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Assets\Shaders\PostOutline.shader.meta
-    projectPath: Assets\Shaders\PostOutline.shader.meta
-    originalPath: 
-    status: 1
-    staged: 0
   - path: StrategyGame\Library\assetDatabase3
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
-    staged: 0
-  - path: StrategyGame\Library\CrashedAssetImports.txt
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    status: 1
     staged: 0
   - path: StrategyGame\Library\CurrentLayout.dwlt
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\CurrentLayout.dwlt
@@ -184,30 +112,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: StrategyGame\Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\Library\metadata\2d\2d253eef03eaad64990105bd5aa59aee
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\metadata\2d\2d253eef03eaad64990105bd5aa59aee
-    projectPath: Library\metadata\2d\2d253eef03eaad64990105bd5aa59aee
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\metadata\2d\2d253eef03eaad64990105bd5aa59aee.info
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\metadata\2d\2d253eef03eaad64990105bd5aa59aee.info
-    projectPath: Library\metadata\2d\2d253eef03eaad64990105bd5aa59aee.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\metadata\78\78f8c5100c2ad64409fee4f571c9b0a9
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\metadata\78\78f8c5100c2ad64409fee4f571c9b0a9
-    projectPath: Library\metadata\78\78f8c5100c2ad64409fee4f571c9b0a9
-    originalPath: 
-    status: 3
-    staged: 0
   - path: StrategyGame\Library\metadata\a2\a26ff63e95e62f044bde2932c56548e0
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\metadata\a2\a26ff63e95e62f044bde2932c56548e0
     projectPath: Library\metadata\a2\a26ff63e95e62f044bde2932c56548e0
@@ -225,42 +129,6 @@ MonoBehaviour:
     projectPath: Library\metadata\af\afc61d81e648e954d89f4226705603b8
     originalPath: 
     status: 3
-    staged: 0
-  - path: StrategyGame\Library\metadata\ba\ba3233e14039eb84996d835d5222b96c
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\metadata\ba\ba3233e14039eb84996d835d5222b96c
-    projectPath: Library\metadata\ba\ba3233e14039eb84996d835d5222b96c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\metadata\ba\ba3233e14039eb84996d835d5222b96c.info
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\metadata\ba\ba3233e14039eb84996d835d5222b96c.info
-    projectPath: Library\metadata\ba\ba3233e14039eb84996d835d5222b96c.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\metadata\c7\c730b1ba5ad13224bb18fd1a39911232
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\metadata\c7\c730b1ba5ad13224bb18fd1a39911232
-    projectPath: Library\metadata\c7\c730b1ba5ad13224bb18fd1a39911232
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\metadata\c7\c730b1ba5ad13224bb18fd1a39911232.info
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\metadata\c7\c730b1ba5ad13224bb18fd1a39911232.info
-    projectPath: Library\metadata\c7\c730b1ba5ad13224bb18fd1a39911232.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\metadata\f7\f79c1cc6d26b8244ebe45a795c3c7a8b
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\metadata\f7\f79c1cc6d26b8244ebe45a795c3c7a8b
-    projectPath: Library\metadata\f7\f79c1cc6d26b8244ebe45a795c3c7a8b
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\metadata\f7\f79c1cc6d26b8244ebe45a795c3c7a8b.info
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\metadata\f7\f79c1cc6d26b8244ebe45a795c3c7a8b.info
-    projectPath: Library\metadata\f7\f79c1cc6d26b8244ebe45a795c3c7a8b.info
-    originalPath: 
-    status: 1
     staged: 0
   - path: StrategyGame\Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -280,186 +148,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: StrategyGame\Library\ScriptMapper
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ScriptMapper
-    projectPath: Library\ScriptMapper
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache.db
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache.db
-    projectPath: Library\ShaderCache.db
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\1\11acd74090d1472fc6edddd0d398a6a5.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\1\11acd74090d1472fc6edddd0d398a6a5.bin
-    projectPath: Library\ShaderCache\1\11acd74090d1472fc6edddd0d398a6a5.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\2\29afd2e4197383fc5328e05ca25b5443.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\2\29afd2e4197383fc5328e05ca25b5443.bin
-    projectPath: Library\ShaderCache\2\29afd2e4197383fc5328e05ca25b5443.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\2\2ed5dfc5119de4f015040249b720101b.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\2\2ed5dfc5119de4f015040249b720101b.bin
-    projectPath: Library\ShaderCache\2\2ed5dfc5119de4f015040249b720101b.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\3\3d2be7192e742f768691092ac09cd403.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\3\3d2be7192e742f768691092ac09cd403.bin
-    projectPath: Library\ShaderCache\3\3d2be7192e742f768691092ac09cd403.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\4\4091c9c01c4c925c5a00c0210aa5a353.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\4\4091c9c01c4c925c5a00c0210aa5a353.bin
-    projectPath: Library\ShaderCache\4\4091c9c01c4c925c5a00c0210aa5a353.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\4\45daba2cdacfcd956993195825a51e5f.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\4\45daba2cdacfcd956993195825a51e5f.bin
-    projectPath: Library\ShaderCache\4\45daba2cdacfcd956993195825a51e5f.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\4\47aae34ad1ecc42541026d07b47e3be9.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\4\47aae34ad1ecc42541026d07b47e3be9.bin
-    projectPath: Library\ShaderCache\4\47aae34ad1ecc42541026d07b47e3be9.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\4\4f16b9fe0690612d62478f4d5bddd2d8.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\4\4f16b9fe0690612d62478f4d5bddd2d8.bin
-    projectPath: Library\ShaderCache\4\4f16b9fe0690612d62478f4d5bddd2d8.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\4\4fab1ef664eebd424e33e675cea2d629.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\4\4fab1ef664eebd424e33e675cea2d629.bin
-    projectPath: Library\ShaderCache\4\4fab1ef664eebd424e33e675cea2d629.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\5\52c499028b04317b193dc6dd3f5c48e8.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\5\52c499028b04317b193dc6dd3f5c48e8.bin
-    projectPath: Library\ShaderCache\5\52c499028b04317b193dc6dd3f5c48e8.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\5\5841bf09bad8d2c4201ac8d469bf981c.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\5\5841bf09bad8d2c4201ac8d469bf981c.bin
-    projectPath: Library\ShaderCache\5\5841bf09bad8d2c4201ac8d469bf981c.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\5\59adb000cb0265eafb29b137eaf51f27.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\5\59adb000cb0265eafb29b137eaf51f27.bin
-    projectPath: Library\ShaderCache\5\59adb000cb0265eafb29b137eaf51f27.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\6\601c0225fe2df094ed22ee20fea81b05.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\6\601c0225fe2df094ed22ee20fea81b05.bin
-    projectPath: Library\ShaderCache\6\601c0225fe2df094ed22ee20fea81b05.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\6\67bbb12112b304fa1e4f30f2a1bbbeaf.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\6\67bbb12112b304fa1e4f30f2a1bbbeaf.bin
-    projectPath: Library\ShaderCache\6\67bbb12112b304fa1e4f30f2a1bbbeaf.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\6\681056553bd27c216841d4ee17dd317c.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\6\681056553bd27c216841d4ee17dd317c.bin
-    projectPath: Library\ShaderCache\6\681056553bd27c216841d4ee17dd317c.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\6\6fd4e1865e0d219b752c73b0dd9ecdc0.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\6\6fd4e1865e0d219b752c73b0dd9ecdc0.bin
-    projectPath: Library\ShaderCache\6\6fd4e1865e0d219b752c73b0dd9ecdc0.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\8\84f35089396e008f909358ae89e839be.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\8\84f35089396e008f909358ae89e839be.bin
-    projectPath: Library\ShaderCache\8\84f35089396e008f909358ae89e839be.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\a\a2001ec6533f75b0a4de25985ae57a9f.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\a\a2001ec6533f75b0a4de25985ae57a9f.bin
-    projectPath: Library\ShaderCache\a\a2001ec6533f75b0a4de25985ae57a9f.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\a\ac6d52ae1bdf16ef854eafc5a03e58fb.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\a\ac6d52ae1bdf16ef854eafc5a03e58fb.bin
-    projectPath: Library\ShaderCache\a\ac6d52ae1bdf16ef854eafc5a03e58fb.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\b\b2c93dd458f477f794add091b8ade5c4.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\b\b2c93dd458f477f794add091b8ade5c4.bin
-    projectPath: Library\ShaderCache\b\b2c93dd458f477f794add091b8ade5c4.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\b\be4af67a5ecd1c0d098bcb9a3e0746ee.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\b\be4af67a5ecd1c0d098bcb9a3e0746ee.bin
-    projectPath: Library\ShaderCache\b\be4af67a5ecd1c0d098bcb9a3e0746ee.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\b\bef3d5a72d7af5a4e28c9230aceccd54.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\b\bef3d5a72d7af5a4e28c9230aceccd54.bin
-    projectPath: Library\ShaderCache\b\bef3d5a72d7af5a4e28c9230aceccd54.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\b\bf6bcafddb83ad41a50a32e615721fbb.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\b\bf6bcafddb83ad41a50a32e615721fbb.bin
-    projectPath: Library\ShaderCache\b\bf6bcafddb83ad41a50a32e615721fbb.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\c\c6183345cd6cbdd158122900b0cebb7f.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\c\c6183345cd6cbdd158122900b0cebb7f.bin
-    projectPath: Library\ShaderCache\c\c6183345cd6cbdd158122900b0cebb7f.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\c\cc4185a8f2109b5d6ef7562dfab4c256.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\c\cc4185a8f2109b5d6ef7562dfab4c256.bin
-    projectPath: Library\ShaderCache\c\cc4185a8f2109b5d6ef7562dfab4c256.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\d\dbc7f91f922a7636a928627463fa94b4.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\d\dbc7f91f922a7636a928627463fa94b4.bin
-    projectPath: Library\ShaderCache\d\dbc7f91f922a7636a928627463fa94b4.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\f\f7f0e37916c3bccc1539745c042c3b7a.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\f\f7f0e37916c3bccc1539745c042c3b7a.bin
-    projectPath: Library\ShaderCache\f\f7f0e37916c3bccc1539745c042c3b7a.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\Library\ShaderCache\f\fd2ac37fec19955e3eeed8f9ce7573e2.bin
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\ShaderCache\f\fd2ac37fec19955e3eeed8f9ce7573e2.bin
-    projectPath: Library\ShaderCache\f\fd2ac37fec19955e3eeed8f9ce7573e2.bin
-    originalPath: 
-    status: 1
-    staged: 0
   - path: StrategyGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -472,1773 +160,1689 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: StrategyGame\Library\StateCache\SceneView\4aeb83-mainStage.json
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Library\StateCache\SceneView\4aeb83-mainStage.json
-    projectPath: Library\StateCache\SceneView\4aeb83-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\obj\Debug\Assembly-CSharp.csproj.CopyComplete
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\Assembly-CSharp.csproj.CopyComplete
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\obj\Debug\Assembly-CSharp.dll
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\Assembly-CSharp.dll
-    projectPath: obj\Debug\Assembly-CSharp.dll
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\obj\Debug\Assembly-CSharp.pdb
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\Assembly-CSharp.pdb
-    projectPath: obj\Debug\Assembly-CSharp.pdb
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: StrategyGame\obj\Debug\build.force
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\build.force
-    projectPath: obj\Debug\build.force
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: StrategyGame\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\ProjectSettings\TagManager.asset
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: StrategyGame\Temp\__Backupscenes\0.backup
-    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    status: 1
-    staged: 0
   - path: StrategyGame\Temp\bin\Debug\Assembly-CSharp.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Assembly-CSharp.dll
     projectPath: Temp\bin\Debug\Assembly-CSharp.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Assembly-CSharp.pdb
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Assembly-CSharp.pdb
     projectPath: Temp\bin\Debug\Assembly-CSharp.pdb
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\ExCSS.Unity.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\ExCSS.Unity.dll
     projectPath: Temp\bin\Debug\ExCSS.Unity.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
     projectPath: Temp\bin\Debug\Microsoft.Win32.Primitives.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\mscorlib.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\mscorlib.dll
     projectPath: Temp\bin\Debug\mscorlib.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\netstandard.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\netstandard.dll
     projectPath: Temp\bin\Debug\netstandard.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\nunit.framework.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\nunit.framework.dll
     projectPath: Temp\bin\Debug\nunit.framework.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\nunit.framework.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\nunit.framework.xml
     projectPath: Temp\bin\Debug\nunit.framework.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.AppContext.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.AppContext.dll
     projectPath: Temp\bin\Debug\System.AppContext.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Collections.Concurrent.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Collections.Concurrent.dll
     projectPath: Temp\bin\Debug\System.Collections.Concurrent.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Collections.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Collections.dll
     projectPath: Temp\bin\Debug\System.Collections.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Collections.NonGeneric.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Collections.NonGeneric.dll
     projectPath: Temp\bin\Debug\System.Collections.NonGeneric.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Collections.Specialized.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Collections.Specialized.dll
     projectPath: Temp\bin\Debug\System.Collections.Specialized.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.ComponentModel.Composition.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.ComponentModel.Composition.dll
     projectPath: Temp\bin\Debug\System.ComponentModel.Composition.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.ComponentModel.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.ComponentModel.dll
     projectPath: Temp\bin\Debug\System.ComponentModel.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
     projectPath: Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.ComponentModel.Primitives.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.ComponentModel.Primitives.dll
     projectPath: Temp\bin\Debug\System.ComponentModel.Primitives.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
     projectPath: Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Console.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Console.dll
     projectPath: Temp\bin\Debug\System.Console.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Core.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Core.dll
     projectPath: Temp\bin\Debug\System.Core.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Data.Common.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Data.Common.dll
     projectPath: Temp\bin\Debug\System.Data.Common.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Data.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Data.dll
     projectPath: Temp\bin\Debug\System.Data.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Diagnostics.Contracts.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Diagnostics.Contracts.dll
     projectPath: Temp\bin\Debug\System.Diagnostics.Contracts.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Diagnostics.Debug.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Diagnostics.Debug.dll
     projectPath: Temp\bin\Debug\System.Diagnostics.Debug.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
     projectPath: Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Diagnostics.Process.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Diagnostics.Process.dll
     projectPath: Temp\bin\Debug\System.Diagnostics.Process.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
     projectPath: Temp\bin\Debug\System.Diagnostics.StackTrace.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
     projectPath: Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Diagnostics.Tools.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Diagnostics.Tools.dll
     projectPath: Temp\bin\Debug\System.Diagnostics.Tools.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
     projectPath: Temp\bin\Debug\System.Diagnostics.TraceSource.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Diagnostics.Tracing.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Diagnostics.Tracing.dll
     projectPath: Temp\bin\Debug\System.Diagnostics.Tracing.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.dll
     projectPath: Temp\bin\Debug\System.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Drawing.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Drawing.dll
     projectPath: Temp\bin\Debug\System.Drawing.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Drawing.Primitives.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Drawing.Primitives.dll
     projectPath: Temp\bin\Debug\System.Drawing.Primitives.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Dynamic.Runtime.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Dynamic.Runtime.dll
     projectPath: Temp\bin\Debug\System.Dynamic.Runtime.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Globalization.Calendars.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Globalization.Calendars.dll
     projectPath: Temp\bin\Debug\System.Globalization.Calendars.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Globalization.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Globalization.dll
     projectPath: Temp\bin\Debug\System.Globalization.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Globalization.Extensions.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Globalization.Extensions.dll
     projectPath: Temp\bin\Debug\System.Globalization.Extensions.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.Compression.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.Compression.dll
     projectPath: Temp\bin\Debug\System.IO.Compression.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.Compression.FileSystem.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.Compression.FileSystem.dll
     projectPath: Temp\bin\Debug\System.IO.Compression.FileSystem.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
     projectPath: Temp\bin\Debug\System.IO.Compression.ZipFile.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.dll
     projectPath: Temp\bin\Debug\System.IO.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.FileSystem.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.FileSystem.dll
     projectPath: Temp\bin\Debug\System.IO.FileSystem.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
     projectPath: Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
     projectPath: Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
     projectPath: Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.IsolatedStorage.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.IsolatedStorage.dll
     projectPath: Temp\bin\Debug\System.IO.IsolatedStorage.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
     projectPath: Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.Pipes.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.Pipes.dll
     projectPath: Temp\bin\Debug\System.IO.Pipes.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
     projectPath: Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Linq.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Linq.dll
     projectPath: Temp\bin\Debug\System.Linq.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Linq.Expressions.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Linq.Expressions.dll
     projectPath: Temp\bin\Debug\System.Linq.Expressions.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Linq.Parallel.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Linq.Parallel.dll
     projectPath: Temp\bin\Debug\System.Linq.Parallel.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Linq.Queryable.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Linq.Queryable.dll
     projectPath: Temp\bin\Debug\System.Linq.Queryable.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.dll
     projectPath: Temp\bin\Debug\System.Net.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.Http.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.Http.dll
     projectPath: Temp\bin\Debug\System.Net.Http.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.NameResolution.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.NameResolution.dll
     projectPath: Temp\bin\Debug\System.Net.NameResolution.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.NetworkInformation.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.NetworkInformation.dll
     projectPath: Temp\bin\Debug\System.Net.NetworkInformation.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.Ping.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.Ping.dll
     projectPath: Temp\bin\Debug\System.Net.Ping.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.Primitives.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.Primitives.dll
     projectPath: Temp\bin\Debug\System.Net.Primitives.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.Requests.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.Requests.dll
     projectPath: Temp\bin\Debug\System.Net.Requests.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.Security.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.Security.dll
     projectPath: Temp\bin\Debug\System.Net.Security.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.Sockets.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.Sockets.dll
     projectPath: Temp\bin\Debug\System.Net.Sockets.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
     projectPath: Temp\bin\Debug\System.Net.WebHeaderCollection.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.WebSockets.Client.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.WebSockets.Client.dll
     projectPath: Temp\bin\Debug\System.Net.WebSockets.Client.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Net.WebSockets.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Net.WebSockets.dll
     projectPath: Temp\bin\Debug\System.Net.WebSockets.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Numerics.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Numerics.dll
     projectPath: Temp\bin\Debug\System.Numerics.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Numerics.Vectors.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Numerics.Vectors.dll
     projectPath: Temp\bin\Debug\System.Numerics.Vectors.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.ObjectModel.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.ObjectModel.dll
     projectPath: Temp\bin\Debug\System.ObjectModel.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Reflection.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Reflection.dll
     projectPath: Temp\bin\Debug\System.Reflection.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Reflection.Extensions.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Reflection.Extensions.dll
     projectPath: Temp\bin\Debug\System.Reflection.Extensions.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Reflection.Primitives.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Reflection.Primitives.dll
     projectPath: Temp\bin\Debug\System.Reflection.Primitives.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Resources.Reader.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Resources.Reader.dll
     projectPath: Temp\bin\Debug\System.Resources.Reader.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Resources.ResourceManager.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Resources.ResourceManager.dll
     projectPath: Temp\bin\Debug\System.Resources.ResourceManager.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Resources.Writer.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Resources.Writer.dll
     projectPath: Temp\bin\Debug\System.Resources.Writer.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
     projectPath: Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.dll
     projectPath: Temp\bin\Debug\System.Runtime.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.Extensions.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.Extensions.dll
     projectPath: Temp\bin\Debug\System.Runtime.Extensions.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.Handles.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.Handles.dll
     projectPath: Temp\bin\Debug\System.Runtime.Handles.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.InteropServices.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.InteropServices.dll
     projectPath: Temp\bin\Debug\System.Runtime.InteropServices.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
     projectPath: Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
     projectPath: Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.Numerics.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.Numerics.dll
     projectPath: Temp\bin\Debug\System.Runtime.Numerics.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.Serialization.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.Serialization.dll
     projectPath: Temp\bin\Debug\System.Runtime.Serialization.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
     projectPath: Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
     projectPath: Temp\bin\Debug\System.Runtime.Serialization.Json.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
     projectPath: Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
     projectPath: Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Security.Claims.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Security.Claims.dll
     projectPath: Temp\bin\Debug\System.Security.Claims.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
     projectPath: Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
     projectPath: Temp\bin\Debug\System.Security.Cryptography.Csp.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
     projectPath: Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
     projectPath: Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
     projectPath: Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Security.Principal.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Security.Principal.dll
     projectPath: Temp\bin\Debug\System.Security.Principal.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Security.SecureString.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Security.SecureString.dll
     projectPath: Temp\bin\Debug\System.Security.SecureString.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.ServiceModel.Web.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.ServiceModel.Web.dll
     projectPath: Temp\bin\Debug\System.ServiceModel.Web.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Text.Encoding.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Text.Encoding.dll
     projectPath: Temp\bin\Debug\System.Text.Encoding.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
     projectPath: Temp\bin\Debug\System.Text.Encoding.Extensions.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Text.RegularExpressions.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Text.RegularExpressions.dll
     projectPath: Temp\bin\Debug\System.Text.RegularExpressions.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Threading.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Threading.dll
     projectPath: Temp\bin\Debug\System.Threading.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Threading.Overlapped.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Threading.Overlapped.dll
     projectPath: Temp\bin\Debug\System.Threading.Overlapped.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Threading.Tasks.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Threading.Tasks.dll
     projectPath: Temp\bin\Debug\System.Threading.Tasks.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
     projectPath: Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Threading.Thread.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Threading.Thread.dll
     projectPath: Temp\bin\Debug\System.Threading.Thread.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Threading.ThreadPool.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Threading.ThreadPool.dll
     projectPath: Temp\bin\Debug\System.Threading.ThreadPool.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Threading.Timer.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Threading.Timer.dll
     projectPath: Temp\bin\Debug\System.Threading.Timer.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Transactions.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Transactions.dll
     projectPath: Temp\bin\Debug\System.Transactions.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.ValueTuple.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.ValueTuple.dll
     projectPath: Temp\bin\Debug\System.ValueTuple.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Web.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Web.dll
     projectPath: Temp\bin\Debug\System.Web.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Windows.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Windows.dll
     projectPath: Temp\bin\Debug\System.Windows.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Xml.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Xml.dll
     projectPath: Temp\bin\Debug\System.Xml.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Xml.Linq.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Xml.Linq.dll
     projectPath: Temp\bin\Debug\System.Xml.Linq.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Xml.ReaderWriter.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Xml.ReaderWriter.dll
     projectPath: Temp\bin\Debug\System.Xml.ReaderWriter.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Xml.Serialization.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Xml.Serialization.dll
     projectPath: Temp\bin\Debug\System.Xml.Serialization.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Xml.XDocument.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Xml.XDocument.dll
     projectPath: Temp\bin\Debug\System.Xml.XDocument.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Xml.XmlDocument.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Xml.XmlDocument.dll
     projectPath: Temp\bin\Debug\System.Xml.XmlDocument.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Xml.XmlSerializer.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Xml.XmlSerializer.dll
     projectPath: Temp\bin\Debug\System.Xml.XmlSerializer.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Xml.XPath.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Xml.XPath.dll
     projectPath: Temp\bin\Debug\System.Xml.XPath.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
     projectPath: Temp\bin\Debug\System.Xml.XPath.XDocument.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
     projectPath: Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
     projectPath: Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.Analytics.Editor.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.Analytics.Editor.dll
     projectPath: Temp\bin\Debug\Unity.Analytics.Editor.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
     projectPath: Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.Analytics.Tracker.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.Analytics.Tracker.dll
     projectPath: Temp\bin\Debug\Unity.Analytics.Tracker.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.Cecil.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.Cecil.dll
     projectPath: Temp\bin\Debug\Unity.Cecil.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.Cecil.Mdb.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.Cecil.Mdb.dll
     projectPath: Temp\bin\Debug\Unity.Cecil.Mdb.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.Cecil.Pdb.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.Cecil.Pdb.dll
     projectPath: Temp\bin\Debug\Unity.Cecil.Pdb.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.CecilTools.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.CecilTools.dll
     projectPath: Temp\bin\Debug\Unity.CecilTools.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
     projectPath: Temp\bin\Debug\Unity.CollabProxy.Editor.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
     projectPath: Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.DataContract.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.DataContract.dll
     projectPath: Temp\bin\Debug\Unity.DataContract.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.IvyParser.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.IvyParser.dll
     projectPath: Temp\bin\Debug\Unity.IvyParser.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
     projectPath: Temp\bin\Debug\Unity.Legacy.NRefactory.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.Locator.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.Locator.dll
     projectPath: Temp\bin\Debug\Unity.Locator.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
     projectPath: Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
     projectPath: Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.SerializationLogic.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.SerializationLogic.dll
     projectPath: Temp\bin\Debug\Unity.SerializationLogic.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.TextMeshPro.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.TextMeshPro.dll
     projectPath: Temp\bin\Debug\Unity.TextMeshPro.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
     projectPath: Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
     projectPath: Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.TextMeshPro.pdb
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.TextMeshPro.pdb
     projectPath: Temp\bin\Debug\Unity.TextMeshPro.pdb
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\Unity.UNetWeaver.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\Unity.UNetWeaver.dll
     projectPath: Temp\bin\Debug\Unity.UNetWeaver.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEditor.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEditor.dll
     projectPath: Temp\bin\Debug\UnityEditor.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEditor.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEditor.xml
     projectPath: Temp\bin\Debug\UnityEditor.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.AIModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.AIModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.AIModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.AIModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.AIModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.AIModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.AnimationModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.AnimationModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.AnimationModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.AnimationModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.AnimationModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.AnimationModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ARModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ARModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.ARModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ARModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ARModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.ARModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.AudioModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.AudioModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.AudioModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.AudioModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.AudioModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.AudioModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.BaselibModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.BaselibModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.BaselibModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.BaselibModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.BaselibModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.BaselibModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ClothModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ClothModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.ClothModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ClothModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ClothModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.ClothModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.CoreModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.CoreModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.CoreModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.CoreModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.CoreModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.CoreModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.DirectorModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.DirectorModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.DirectorModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.DirectorModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.DirectorModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.DirectorModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.dll
     projectPath: Temp\bin\Debug\UnityEngine.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.FileSystemHttpModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.GameCenterModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.GameCenterModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
     projectPath: Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
     projectPath: Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.GridModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.GridModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.GridModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.GridModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.GridModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.GridModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.HotReloadModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.HotReloadModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.IMGUIModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.IMGUIModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.InputModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.InputModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.InputModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.InputModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.InputModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.InputModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.LocalizationModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.LocalizationModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.LocalizationModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.LocalizationModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.Networking.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.Networking.dll
     projectPath: Temp\bin\Debug\UnityEngine.Networking.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.Networking.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.Networking.xml
     projectPath: Temp\bin\Debug\UnityEngine.Networking.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.Physics2DModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.Physics2DModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.PhysicsModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.PhysicsModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.ProfilerModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ProfilerModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ProfilerModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.ProfilerModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
     projectPath: Temp\bin\Debug\UnityEngine.SpatialTracking.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
     projectPath: Temp\bin\Debug\UnityEngine.SpatialTracking.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.StreamingModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.StreamingModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.StreamingModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.StreamingModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.StreamingModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.StreamingModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.SubstanceModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.SubstanceModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TerrainModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TerrainModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.TerrainModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TerrainModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TerrainModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.TerrainModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TestRunner.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TestRunner.dll
     projectPath: Temp\bin\Debug\UnityEngine.TestRunner.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TestRunner.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TestRunner.xml
     projectPath: Temp\bin\Debug\UnityEngine.TestRunner.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.TextCoreModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TextCoreModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TextCoreModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.TextCoreModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TilemapModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TilemapModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.TilemapModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TilemapModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TilemapModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.TilemapModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.Timeline.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.Timeline.dll
     projectPath: Temp\bin\Debug\UnityEngine.Timeline.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.Timeline.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.Timeline.xml
     projectPath: Temp\bin\Debug\UnityEngine.Timeline.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TimelineModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TimelineModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.TimelineModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TimelineModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TimelineModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.TimelineModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TLSModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TLSModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.TLSModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.TLSModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.TLSModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.TLSModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UI.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UI.dll
     projectPath: Temp\bin\Debug\UnityEngine.UI.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UI.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UI.xml
     projectPath: Temp\bin\Debug\UnityEngine.UI.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UIElementsModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UIElementsModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UIModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UIModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UIModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UIModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UIModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UIModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UmbraModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UmbraModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UmbraModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UmbraModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UmbraModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UmbraModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UNETModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UNETModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UNETModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UNETModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UNETModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UNETModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.VehiclesModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.VehiclesModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.VFXModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.VFXModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.VFXModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.VFXModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.VFXModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.VFXModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.VideoModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.VideoModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.VideoModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.VideoModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.VideoModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.VideoModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.VRModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.VRModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.VRModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.VRModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.VRModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.VRModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.WindModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.WindModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.WindModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.WindModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.WindModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.WindModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.xml
     projectPath: Temp\bin\Debug\UnityEngine.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.XRModule.dll
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.XRModule.dll
     projectPath: Temp\bin\Debug\UnityEngine.XRModule.dll
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\bin\Debug\UnityEngine.XRModule.xml
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\bin\Debug\UnityEngine.XRModule.xml
     projectPath: Temp\bin\Debug\UnityEngine.XRModule.xml
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-0350e0f0f41a62943a45933f14e14209
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-0350e0f0f41a62943a45933f14e14209
     projectPath: Temp\UnityTempFile-0350e0f0f41a62943a45933f14e14209
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-07015942bf5c78449bf515e4b0efcf87
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-07015942bf5c78449bf515e4b0efcf87
     projectPath: Temp\UnityTempFile-07015942bf5c78449bf515e4b0efcf87
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-0e346917f0185324faef74804a6680e7
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-0e346917f0185324faef74804a6680e7
     projectPath: Temp\UnityTempFile-0e346917f0185324faef74804a6680e7
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: StrategyGame\Temp\UnityTempFile-19c4248a32a4b75498310098c12684ad
+    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-19c4248a32a4b75498310098c12684ad
+    projectPath: Temp\UnityTempFile-19c4248a32a4b75498310098c12684ad
     originalPath: 
     status: 1
     staged: 0
@@ -2246,11 +1850,17 @@ MonoBehaviour:
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-21a68540d6ecc724293ac6661e3dc4e3
     projectPath: Temp\UnityTempFile-21a68540d6ecc724293ac6661e3dc4e3
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-3631b8f4f16ed3b47a69c10cffb36a39
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-3631b8f4f16ed3b47a69c10cffb36a39
     projectPath: Temp\UnityTempFile-3631b8f4f16ed3b47a69c10cffb36a39
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: StrategyGame\Temp\UnityTempFile-5a35d2df93e61154eab0f1b7bde9d114
+    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-5a35d2df93e61154eab0f1b7bde9d114
+    projectPath: Temp\UnityTempFile-5a35d2df93e61154eab0f1b7bde9d114
     originalPath: 
     status: 1
     staged: 0
@@ -2258,35 +1868,41 @@ MonoBehaviour:
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-5e62684c18889104993966ad81e825da
     projectPath: Temp\UnityTempFile-5e62684c18889104993966ad81e825da
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-5ff9520e398aa6649aa5b8635ad204ce
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-5ff9520e398aa6649aa5b8635ad204ce
     projectPath: Temp\UnityTempFile-5ff9520e398aa6649aa5b8635ad204ce
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-5ffa7e4737c23c44ab2388c6bd04059f
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-5ffa7e4737c23c44ab2388c6bd04059f
     projectPath: Temp\UnityTempFile-5ffa7e4737c23c44ab2388c6bd04059f
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-62bc19ae05c0b29418935785d49ab317
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-62bc19ae05c0b29418935785d49ab317
     projectPath: Temp\UnityTempFile-62bc19ae05c0b29418935785d49ab317
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-6305c21a32fe9c24599d433c67b41ee8
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-6305c21a32fe9c24599d433c67b41ee8
     projectPath: Temp\UnityTempFile-6305c21a32fe9c24599d433c67b41ee8
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-674f4074894e8b44180d4f7f1df925a5
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-674f4074894e8b44180d4f7f1df925a5
     projectPath: Temp\UnityTempFile-674f4074894e8b44180d4f7f1df925a5
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: StrategyGame\Temp\UnityTempFile-6ad1f5690220f4340b4d51caf2d60311
+    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-6ad1f5690220f4340b4d51caf2d60311
+    projectPath: Temp\UnityTempFile-6ad1f5690220f4340b4d51caf2d60311
     originalPath: 
     status: 1
     staged: 0
@@ -2294,35 +1910,47 @@ MonoBehaviour:
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-6bc544f9b9cd6114baf9739886ef1ce5
     projectPath: Temp\UnityTempFile-6bc544f9b9cd6114baf9739886ef1ce5
     originalPath: 
+    status: 5
+    staged: 0
+  - path: StrategyGame\Temp\UnityTempFile-6be973f01d3a9bc459c7cf1cef24d366
+    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-6be973f01d3a9bc459c7cf1cef24d366
+    projectPath: Temp\UnityTempFile-6be973f01d3a9bc459c7cf1cef24d366
+    originalPath: 
     status: 1
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-77e548ef9a8c99b40b0b02c4df2c2804
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-77e548ef9a8c99b40b0b02c4df2c2804
     projectPath: Temp\UnityTempFile-77e548ef9a8c99b40b0b02c4df2c2804
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-7f992267e8148fd4f8fc97c0a07834ed
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-7f992267e8148fd4f8fc97c0a07834ed
     projectPath: Temp\UnityTempFile-7f992267e8148fd4f8fc97c0a07834ed
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-85eeee29c3470d04f9ff1b57ff7e4d32
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-85eeee29c3470d04f9ff1b57ff7e4d32
     projectPath: Temp\UnityTempFile-85eeee29c3470d04f9ff1b57ff7e4d32
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-86563a60176b28a47b5a2cc5614b891b
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-86563a60176b28a47b5a2cc5614b891b
     projectPath: Temp\UnityTempFile-86563a60176b28a47b5a2cc5614b891b
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-8b57fbce59c1d8149b75b34ad32e21d7
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-8b57fbce59c1d8149b75b34ad32e21d7
     projectPath: Temp\UnityTempFile-8b57fbce59c1d8149b75b34ad32e21d7
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: StrategyGame\Temp\UnityTempFile-9237eef1adcdb164e962237f5811d278
+    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-9237eef1adcdb164e962237f5811d278
+    projectPath: Temp\UnityTempFile-9237eef1adcdb164e962237f5811d278
     originalPath: 
     status: 1
     staged: 0
@@ -2330,35 +1958,41 @@ MonoBehaviour:
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-98e6f9ba6cec2de498208c613d4fc3a2
     projectPath: Temp\UnityTempFile-98e6f9ba6cec2de498208c613d4fc3a2
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-9d4add668f56f4549afd2e707b6eaa2d
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-9d4add668f56f4549afd2e707b6eaa2d
     projectPath: Temp\UnityTempFile-9d4add668f56f4549afd2e707b6eaa2d
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-9d6a03638e8839046b9bb269df90a56d
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-9d6a03638e8839046b9bb269df90a56d
     projectPath: Temp\UnityTempFile-9d6a03638e8839046b9bb269df90a56d
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-a526fa715ab76f844b67f0c8866dd3b1
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-a526fa715ab76f844b67f0c8866dd3b1
     projectPath: Temp\UnityTempFile-a526fa715ab76f844b67f0c8866dd3b1
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-b22171b3ac1957b44a189eb136a5c546
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-b22171b3ac1957b44a189eb136a5c546
     projectPath: Temp\UnityTempFile-b22171b3ac1957b44a189eb136a5c546
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-b38609844fb21694e87e0f621ccf620a
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-b38609844fb21694e87e0f621ccf620a
     projectPath: Temp\UnityTempFile-b38609844fb21694e87e0f621ccf620a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: StrategyGame\Temp\UnityTempFile-b47da7bc950a3c644a991adcf3afa677
+    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-b47da7bc950a3c644a991adcf3afa677
+    projectPath: Temp\UnityTempFile-b47da7bc950a3c644a991adcf3afa677
     originalPath: 
     status: 1
     staged: 0
@@ -2366,53 +2000,59 @@ MonoBehaviour:
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-b4a561353b6e8a3469bd8fb5ff7d8d4e
     projectPath: Temp\UnityTempFile-b4a561353b6e8a3469bd8fb5ff7d8d4e
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-b930e11ecabf3d64bab19da85a7bc6f3
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-b930e11ecabf3d64bab19da85a7bc6f3
     projectPath: Temp\UnityTempFile-b930e11ecabf3d64bab19da85a7bc6f3
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-b933f8ef9a697c54998bd04019745b57
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-b933f8ef9a697c54998bd04019745b57
     projectPath: Temp\UnityTempFile-b933f8ef9a697c54998bd04019745b57
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-c23ecda93e8123c428fe4b7333fa4022
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-c23ecda93e8123c428fe4b7333fa4022
     projectPath: Temp\UnityTempFile-c23ecda93e8123c428fe4b7333fa4022
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-c3a2c71e62f7ba445b32992c1bcd734c
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-c3a2c71e62f7ba445b32992c1bcd734c
     projectPath: Temp\UnityTempFile-c3a2c71e62f7ba445b32992c1bcd734c
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-d2c5c12eda067aa4384374331463b591
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-d2c5c12eda067aa4384374331463b591
     projectPath: Temp\UnityTempFile-d2c5c12eda067aa4384374331463b591
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-d575a4849aa88984cb320556ecbd1e4a
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-d575a4849aa88984cb320556ecbd1e4a
     projectPath: Temp\UnityTempFile-d575a4849aa88984cb320556ecbd1e4a
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-d76c8e359ca203c43ab6b33a81a43d78
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-d76c8e359ca203c43ab6b33a81a43d78
     projectPath: Temp\UnityTempFile-d76c8e359ca203c43ab6b33a81a43d78
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-e0cb918d43511c3478e7785761354167
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-e0cb918d43511c3478e7785761354167
     projectPath: Temp\UnityTempFile-e0cb918d43511c3478e7785761354167
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: StrategyGame\Temp\UnityTempFile-e27648ec0e4eb574bb9543143329da2c
+    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-e27648ec0e4eb574bb9543143329da2c
+    projectPath: Temp\UnityTempFile-e27648ec0e4eb574bb9543143329da2c
     originalPath: 
     status: 1
     staged: 0
@@ -2420,11 +2060,17 @@ MonoBehaviour:
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-e6d94d2fcdee78e4bace7957fbb046e0
     projectPath: Temp\UnityTempFile-e6d94d2fcdee78e4bace7957fbb046e0
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-f6293ce8672416a4c9e474e34b0e4a2b
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-f6293ce8672416a4c9e474e34b0e4a2b
     projectPath: Temp\UnityTempFile-f6293ce8672416a4c9e474e34b0e4a2b
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: StrategyGame\Temp\UnityTempFile-f7413fab713066545bdb384918f24cee
+    fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-f7413fab713066545bdb384918f24cee
+    projectPath: Temp\UnityTempFile-f7413fab713066545bdb384918f24cee
     originalPath: 
     status: 1
     staged: 0
@@ -2432,11 +2078,11 @@ MonoBehaviour:
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-f77a485dd9ce91246aad5cf02842f937
     projectPath: Temp\UnityTempFile-f77a485dd9ce91246aad5cf02842f937
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
   - path: StrategyGame\Temp\UnityTempFile-f9ac57e4e80f42747863790048d9ebf7
     fullPath: C:\Users\benle\Documents\HS\CS5\StrategyGame\StrategyGame\Temp\UnityTempFile-f9ac57e4e80f42747863790048d9ebf7
     projectPath: Temp\UnityTempFile-f9ac57e4e80f42747863790048d9ebf7
     originalPath: 
-    status: 1
+    status: 5
     staged: 0

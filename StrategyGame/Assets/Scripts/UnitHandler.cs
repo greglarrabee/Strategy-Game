@@ -6,18 +6,20 @@ using UnityEngine.UI;
 
 public class UnitHandler : MonoBehaviour
 {
+    // To keep track of how to interpret mouse clicks
     private enum inputState
     {
         READY,
         MOVE
     };
     private static inputState state;
-    private static int selected;
+    public static int selected { get; private set; }
     private static Unit[] units;
     private Mesh swordMesh;
     public Text unitText;
     public Text hpText;
     public int numUnits;
+    // Input
     public Button moveButton;
 
     // Initialize some constants, set up the board
@@ -33,6 +35,7 @@ public class UnitHandler : MonoBehaviour
         selected = -1;
         // Prepare buttons
         moveButton.onClick.AddListener(moveCheck);
+        moveButton.gameObject.SetActive(false);
         // initialize input
         state = inputState.READY;
     }
@@ -59,16 +62,14 @@ public class UnitHandler : MonoBehaviour
         units[index] = s;
         s.setObject(o);
     }
-    
-    public static int getSelectedId()
-    {
-        return selected;
-    }
 
     // Wait for user's input and move unit
     void moveCheck()
     {
-        state = inputState.MOVE;
+        if(selected != -1 && !units[selected].moved)
+        {
+            state = inputState.MOVE;
+        }
     }
 
     // Move a unit to the target coordinates
@@ -78,6 +79,7 @@ public class UnitHandler : MonoBehaviour
         {
             state = inputState.READY;
             units[selected].setCoords(dest);
+            units[selected].moved = true;
         }
     }
 
@@ -100,7 +102,6 @@ public class UnitHandler : MonoBehaviour
     // Check to see if the user's click was on an object, and select that object if so
     void handleClick()
     {
-        Debug.Log(Input.mousePosition);
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if(Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.GetMask("Units")))
@@ -111,6 +112,7 @@ public class UnitHandler : MonoBehaviour
             int hp = units[selected].health;
             int mHP = units[selected].maxHealth;
             hpText.text = "HP: " + hp + "/" + mHP;
+            moveButton.gameObject.SetActive(true);
             //Debug.Log(name);
         }
         // If mouse click is on UI section of canvas
@@ -121,8 +123,8 @@ public class UnitHandler : MonoBehaviour
         else
         {
             selected = -1;
+            moveButton.gameObject.SetActive(false);
             unitText.text = "No unit selected";
-            //Debug.Log("no hit");
             hpText.text = "";
         }
     }

@@ -8,7 +8,8 @@ public class Sword : Unit
         moveRange = 2;
         atkRangeMax = 1;
         atkRangeMin = 1;
-        maxHealth = 10;
+        maxHealth = 50;
         health = maxHealth;
+        moved = false;
     }
 }
