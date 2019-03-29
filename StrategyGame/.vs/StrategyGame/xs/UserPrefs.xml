@@ -7,7 +7,7 @@
       <File FileName="Assets/Scripts/Sword.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Unit.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/UnitHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/HexGrid.cs" Line="23" Column="36" />
+      <File FileName="Assets/Scripts/HexGrid.cs" Line="88" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
