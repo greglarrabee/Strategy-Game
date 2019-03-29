@@ -4,12 +4,14 @@ using UnityEngine;
 
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 
+
 public class HexMesh : MonoBehaviour
 {
     Mesh hexMesh;
     MeshCollider meshCollider;
     List<Vector3> vertices;
     List<int> triangles;
+
     
     void Awake()
     {
@@ -41,6 +43,7 @@ public class HexMesh : MonoBehaviour
         meshCollider.sharedMesh = hexMesh;
     }
 
+
     // Triangulate a specific cell
     public void Triangulate(HexCell cell)
     {
@@ -50,6 +53,7 @@ public class HexMesh : MonoBehaviour
             AddTriangle(center, center + HexMetrics.corners[i], center + HexMetrics.corners[i+1]);
         }
     }
+
 
     // Add a single triangle to the vertex and triangle arrays
     public void AddTriangle(Vector3 v1, Vector3 v2, Vector3 v3)

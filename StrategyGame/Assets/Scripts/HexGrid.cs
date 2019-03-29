@@ -15,6 +15,9 @@ public class HexGrid : MonoBehaviour
 
     HexMesh hexMesh;
 
+    public Color defaultColor = Color.white;
+    public Color touchedColor = Color.magenta;
+
     private void Awake()
     {
         gridCanvas = GetComponentInChildren<Canvas>();
@@ -47,6 +50,7 @@ public class HexGrid : MonoBehaviour
         cell.transform.SetParent(transform, false);
         cell.transform.localPosition = position;
         cell.coordinates = HexCoordinates.FromOffsetCoordinates(x, z);
+        cell.color = touchedColor;
         
         Text label = Instantiate<Text>(cellLabelPrefab);
         label.rectTransform.SetParent(gridCanvas.transform, false);
@@ -77,6 +81,6 @@ public class HexGrid : MonoBehaviour
     {
         position = transform.InverseTransformPoint(position);
         HexCoordinates coords = HexCoordinates.FromPosition(position);
-        //Debug.Log("touched at " + coords.ToString());
+        Debug.Log("touched at " + coords.ToString());
     }
 }
