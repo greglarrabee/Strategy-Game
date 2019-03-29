@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-03-29T09:06:38.934-07:00
+  lastUpdatedAtString: 2019-03-29T09:07:01.539-07:00
   initializedAtString: 2019-03-29T09:03:40.025-07:00
   entries:
   - path: StrategyGame/Library/gfu/cache/branches.yaml
@@ -22,9 +22,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: StrategyGame/Library/gfu/cache/gitlocks.yaml
-    fullPath: /Users/Gregory/Documents/CS/Strategy-Game/StrategyGame/Library/gfu/cache/gitlocks.yaml
-    projectPath: Library/gfu/cache/gitlocks.yaml
+  - path: StrategyGame/Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/Gregory/Documents/CS/Strategy-Game/StrategyGame/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -33,10 +33,4 @@ MonoBehaviour:
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
     status: 3
-    staged: 0
-  - path: StrategyGame/Temp/UnityTempFile-d7cb6f40039a747e7b07a4e3895a9fea
-    fullPath: /Users/Gregory/Documents/CS/Strategy-Game/StrategyGame/Temp/UnityTempFile-d7cb6f40039a747e7b07a4e3895a9fea
-    projectPath: Temp/UnityTempFile-d7cb6f40039a747e7b07a4e3895a9fea
-    originalPath: 
-    status: 1
     staged: 0
