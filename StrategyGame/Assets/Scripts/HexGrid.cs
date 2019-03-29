@@ -15,6 +15,8 @@ public class HexGrid : MonoBehaviour
 
     HexMesh hexMesh;
 
+    HexCoordinates touched;
+
     private void Awake()
     {
         gridCanvas = GetComponentInChildren<Canvas>();
@@ -77,6 +79,7 @@ public class HexGrid : MonoBehaviour
     {
         position = transform.InverseTransformPoint(position);
         HexCoordinates coords = HexCoordinates.FromPosition(position);
+        UnitHandler.moveUnit(coords);
         //Debug.Log("touched at " + coords.ToString());
     }
 }
