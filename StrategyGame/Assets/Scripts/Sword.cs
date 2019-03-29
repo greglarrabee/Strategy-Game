@@ -9,6 +9,6 @@ public class Sword : Unit
         atkRangeMax = 1;
         atkRangeMin = 1;
         maxHealth = 10;
-        health = 10;
+        health = maxHealth;
     }
 }

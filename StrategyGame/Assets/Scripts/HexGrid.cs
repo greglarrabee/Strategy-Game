@@ -15,8 +15,12 @@ public class HexGrid : MonoBehaviour
 
     HexMesh hexMesh;
 
+
     public Color defaultColor = Color.white;
     public Color touchedColor = Color.magenta;
+
+    HexCoordinates touched;
+
 
     private void Awake()
     {
@@ -81,6 +85,10 @@ public class HexGrid : MonoBehaviour
     {
         position = transform.InverseTransformPoint(position);
         HexCoordinates coords = HexCoordinates.FromPosition(position);
+
         Debug.Log("touched at " + coords.ToString());
+
+        UnitHandler.moveUnit(coords);
+
     }
 }
