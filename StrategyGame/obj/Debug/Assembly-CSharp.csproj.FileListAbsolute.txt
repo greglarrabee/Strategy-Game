@@ -357,3 +357,7 @@
 /Users/Gregory/Documents/CS/Strategy-Game/StrategyGame/obj/Debug/Assembly-CSharp.csproj.CopyComplete
 /Users/Gregory/Documents/CS/Strategy-Game/StrategyGame/obj/Debug/Assembly-CSharp.dll
 /Users/Gregory/Documents/CS/Strategy-Game/StrategyGame/obj/Debug/Assembly-CSharp.pdb
+C:\Users\Karrs_000\Documents\CS5\StrategyGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Karrs_000\Documents\CS5\StrategyGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Karrs_000\Documents\CS5\StrategyGame\obj\Debug\Assembly-CSharp.dll
+C:\Users\Karrs_000\Documents\CS5\StrategyGame\obj\Debug\Assembly-CSharp.pdb

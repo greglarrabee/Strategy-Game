@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class HexGrid : MonoBehaviour
 {
     public int width = 6;
