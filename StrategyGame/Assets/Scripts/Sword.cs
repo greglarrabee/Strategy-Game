@@ -6,8 +6,7 @@ public class Sword : Unit
     public Sword()
     {
         moveRange = 2;
-        atkRangeMax = 1;
-        atkRangeMin = 1;
+        atkRange = 1;
         maxHealth = 50;
         health = maxHealth;
         moved = false;

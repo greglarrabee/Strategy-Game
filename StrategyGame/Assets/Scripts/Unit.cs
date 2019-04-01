@@ -8,8 +8,7 @@ public class Unit : ScriptableObject
     protected Vector2 planePos;
     // Unit's stats
     public int moveRange { get; protected set; }
-    public int atkRangeMin { get; protected set; }
-    public int atkRangeMax { get; protected set; }
+    public int atkRange { get; protected set; }
     public int maxHealth { get; protected set; }
     // Unit's mesh height (for positioning)
     public float meshHeight;

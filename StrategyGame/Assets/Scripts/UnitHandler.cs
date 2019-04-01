@@ -30,7 +30,7 @@ public class UnitHandler : MonoBehaviour
         // Add units
         for(int i = 0; i < numUnits; i++)
         {
-            initS(new HexCoordinates(i, 0), swordMesh, i);
+            initUnit('w', new HexCoordinates(i, 0), i);
         }
         selected = -1;
         // Prepare buttons
@@ -40,9 +40,24 @@ public class UnitHandler : MonoBehaviour
         state = inputState.READY;
     }
 
-    // Create a new Sword object at the desired hex coordinates
-    public void initS(HexCoordinates c, Mesh m, int index)
+    // Create a new Unit of a certain type at the desired coordinates
+    public void initUnit(char kind, HexCoordinates c, int index)
     {
+        Unit newUnit;
+        switch(kind)
+        {
+            case 'w':
+                newUnit = ScriptableObject.CreateInstance<Sword>();
+                break;
+            case 'b':
+                newUnit = ScriptableObject.CreateInstance<Bow>();
+                break;
+            case 'p':
+                newUnit = ScriptableObject.CreateInstance<Spear>();
+                break;
+            default:
+                return;
+        }
         // Create instance of Sword class and set its info
         Sword s = ScriptableObject.CreateInstance<Sword>();
         s.setCoords(c);
