@@ -34,7 +34,6 @@ public class UnitHandler : MonoBehaviour
         meshes.Add("bow", Resources.Load("Models/arrow", typeof(Mesh)));
         meshes.Add("spear", Resources.Load("Models/spear",typeof(Mesh)));
         unitMat = (Material)Resources.Load("Materials/UnitMaterial");
-        Debug.Log(unitMat);
         units = new Unit[numUnits];
         // Add units
         initUnit("sword", new HexCoordinates(0, 0), 0);
