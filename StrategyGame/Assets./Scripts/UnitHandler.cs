@@ -6,6 +6,18 @@ using UnityEngine.UI;
 
 public class UnitHandler : MonoBehaviour
 {
+    public static int selected { get; private set; }
+    private static Unit[] units;
+    // Unit graphics stuff
+    private Hashtable meshes;
+    private Material unitMat;
+    // UI elements
+    public Text unitText;
+    public Text hpText;
+    // yeah
+    public int numUnits;
+    // Input
+    public Button moveButton;
     // To keep track of how to interpret mouse clicks
     private enum inputState
     {
@@ -13,25 +25,21 @@ public class UnitHandler : MonoBehaviour
         MOVE
     };
     private static inputState state;
-    public static int selected { get; private set; }
-    private static Unit[] units;
-    private Mesh swordMesh;
-    public Text unitText;
-    public Text hpText;
-    public int numUnits;
-    // Input
-    public Button moveButton;
 
     // Initialize some constants, set up the board
     void Awake()
     {
-        swordMesh = (Mesh)Resources.Load("Models/sword",typeof(Mesh));
+        meshes = new Hashtable();
+        meshes.Add("sword", Resources.Load("Models/sword", typeof(Mesh)));
+        meshes.Add("bow", Resources.Load("Models/arrow", typeof(Mesh)));
+        meshes.Add("spear", Resources.Load("Models/spear",typeof(Mesh)));
+        unitMat = (Material)Resources.Load("Materials/UnitMaterial");
+        Debug.Log(unitMat);
         units = new Unit[numUnits];
         // Add units
-        for(int i = 0; i < numUnits; i++)
-        {
-            initUnit('w', new HexCoordinates(i, 0), i);
-        }
+        initUnit("sword", new HexCoordinates(0, 0), 0);
+        initUnit("bow", new HexCoordinates(1, 0), 1);
+        initUnit("spear", new HexCoordinates(2, 0), 2);
         selected = -1;
         // Prepare buttons
         moveButton.onClick.AddListener(moveCheck);
@@ -41,41 +49,40 @@ public class UnitHandler : MonoBehaviour
     }
 
     // Create a new Unit of a certain type at the desired coordinates
-    public void initUnit(char kind, HexCoordinates c, int index)
+    public void initUnit(string kind, HexCoordinates c, int index)
     {
         Unit newUnit;
         switch(kind)
         {
-            case 'w':
+            case "sword":
                 newUnit = ScriptableObject.CreateInstance<Sword>();
                 break;
-            case 'b':
+            case "bow":
                 newUnit = ScriptableObject.CreateInstance<Bow>();
                 break;
-            case 'p':
+            case "spear":
                 newUnit = ScriptableObject.CreateInstance<Spear>();
                 break;
             default:
                 return;
         }
-        // Create instance of Sword class and set its info
-        Sword s = ScriptableObject.CreateInstance<Sword>();
-        s.setCoords(c);
-        s.id = index;
-        s.meshHeight = swordMesh.bounds.size.y;
+        // Create instance of unit class and set its info
+        newUnit.setCoords(c);
+        newUnit.id = index;
+        newUnit.meshHeight = ((Mesh)meshes[kind]).bounds.size.y;
 
-        // Create GameObject for Sword unit and set up its components
-        GameObject o = new GameObject { name = "SwordUnit" + index };
+        // Create GameObject for unit and set up its components
+        GameObject o = new GameObject { name = kind + "Unit" + index };
         MeshFilter f = o.AddComponent<MeshFilter>();
-        f.mesh = swordMesh;
+        f.mesh = (Mesh)meshes[kind];
         MeshRenderer r = o.AddComponent<MeshRenderer>();
-        r.material = new Material(Shader.Find("Diffuse"));
+        r.material = unitMat;
         o.AddComponent<MeshCollider>();
         o.gameObject.layer = LayerMask.NameToLayer("Units");
 
         // Attach GameObject to Sword instance
-        units[index] = s;
-        s.setObject(o);
+        units[index] = newUnit;
+        newUnit.setObject(o);
     }
 
     // Wait for user's input and move unit
