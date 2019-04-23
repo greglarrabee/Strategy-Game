@@ -53,6 +53,7 @@ public class UnitHandler : MonoBehaviour
         setButtonsVis(false);
         // initialize input
         state = inputState.READY;
+        playerTurn = true;
     }
 
     // Create a new Unit of a certain type at the desired coordinates
@@ -105,9 +106,20 @@ public class UnitHandler : MonoBehaviour
     // End's the player's turn
     void endTurn()
     {
-        Debug.Log("turn over?");
+        selected = -1;
         playerTurn = false;
         setUIvis(false);
+    }
+
+    // Sets things up for player's turn
+    void startTurn()
+    {
+        for(int i = 0; i < numUnits; i++)
+        {
+            units[i].moved = false;
+        }
+        playerTurn = true;
+        setUIvis(true);
     }
 
     // Move a unit to the target coordinates
@@ -141,9 +153,23 @@ public class UnitHandler : MonoBehaviour
         }
     }
 
+    private IEnumerator wait()
+    {
+        WaitForSeconds w = new WaitForSeconds(1f);
+        yield return w;
+        startTurn();
+    }
+
     private void Update()
     {
-        playerInput();
+        if(playerTurn)
+        {
+            playerInput();
+        }
+        else
+        {
+            StartCoroutine(wait());
+        }
     }
 
     // Check for input relevant to units
