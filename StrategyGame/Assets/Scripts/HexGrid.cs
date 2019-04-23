@@ -5,17 +5,18 @@ using UnityEngine.UI;
 
 public class HexGrid : MonoBehaviour
 {
-    public int width = 6;
-    public int height = 6;
+    public static int width = 6;
+    public static int height = 6;
 
     public HexCell cellPrefab;
-    HexCell[] cells;
+    static HexCell[] cells;
 
     public Text cellLabelPrefab;
     Canvas gridCanvas;
 
     HexMesh hexMesh;
 
+    public static bool gridReady = false;
 
     public Color defaultColor = Color.white;
 
@@ -36,6 +37,8 @@ public class HexGrid : MonoBehaviour
                 CreateCell(x, z, i++);
             }
         }
+        gridReady = true;
+        Debug.Log(gridReady);
     }
 
     private void Start()
@@ -82,7 +85,7 @@ public class HexGrid : MonoBehaviour
     }
 
     // Finds a HexCell object from its HexCoordinates
-    public HexCell cellFromHC(HexCoordinates coords)
+    public static HexCell cellFromHC(HexCoordinates coords)
     {
         int index = coords.X + coords.Z * width + coords.Z / 2;
         return cells[index];
@@ -99,6 +102,5 @@ public class HexGrid : MonoBehaviour
         //Debug.Log("touched at " + coords.ToString());
 
         UnitHandler.moveUnit(coords);
-
     }
 }

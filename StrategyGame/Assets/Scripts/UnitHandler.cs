@@ -33,7 +33,7 @@ public class UnitHandler : MonoBehaviour
     private static inputState state;
 
     // Initialize some constants, set up the board
-    void Awake()
+    void Start()
     {
         meshes = new Hashtable();
         meshes.Add("sword", Resources.Load("Models/sword", typeof(Mesh)));
@@ -128,6 +128,7 @@ public class UnitHandler : MonoBehaviour
         if(state == inputState.MOVE && selected != -1)
         {
             state = inputState.READY;
+            HexGrid.cellFromHC(units[selected].getCoords()).occupied = false;
             units[selected].setCoords(dest);
             units[selected].setPos();
             units[selected].moved = true;

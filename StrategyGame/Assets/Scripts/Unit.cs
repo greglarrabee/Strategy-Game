@@ -26,6 +26,7 @@ public class Unit : ScriptableObject
     {
         Vector2 xzPos = HexCoordinates.fromHexCoordinates(coords);
         obj.transform.SetPositionAndRotation(new Vector3(xzPos[0], meshHeight / 2, xzPos[1]), Quaternion.identity);
+        HexGrid.cellFromHC(coords).occupied = true;
     }
 
     // Give unit a GameObject to handle
