@@ -407,6 +407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade81287327eb3f4a94dcc1e05c710b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uiPanel: {fileID: 1138104853}
   unitText: {fileID: 1872529168}
   hpText: {fileID: 590532802}
   numUnits: 3

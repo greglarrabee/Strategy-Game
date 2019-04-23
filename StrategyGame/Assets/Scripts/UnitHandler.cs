@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class UnitHandler : MonoBehaviour
 {
+    // whose turn it is
+    private bool playerTurn;
     //
     public static int selected { get; private set; }
     private static Unit[] units;
@@ -13,7 +15,7 @@ public class UnitHandler : MonoBehaviour
     private Hashtable meshes;
     private Material unitMat;
     // UI elements
-    public static GameObject uiPanel;
+    public GameObject uiPanel;
     public Text unitText;
     public Text hpText;
     // yeah
@@ -46,27 +48,12 @@ public class UnitHandler : MonoBehaviour
         selected = -1;
         // Prepare buttons
         moveButton.onClick.AddListener(moveCheck);
-        moveButton.gameObject.SetActive(false);
         marchButton.onClick.AddListener(march);
-        marchButton.gameObject.SetActive(false);
-        /*doneButton.onClick.AddListener(endTurn);
-        doneButton.gameObject.SetActive(false);*/
+        doneButton.onClick.AddListener(endTurn);
+        setButtonsVis(false);
         // initialize input
         state = inputState.READY;
     }
-    /*
-    public void giveButtons(Button move, Button marchb, Button done)
-    {
-        moveButton = move;
-        marchButton = marchb;
-        doneButton = done;
-        moveButton.onClick.AddListener(moveCheck);
-        moveButton.gameObject.SetActive(false);
-        marchButton.onClick.AddListener(march);
-        marchButton.gameObject.SetActive(false);
-        doneButton.onClick.AddListener(endTurn);
-        doneButton.gameObject.SetActive(false);
-    }*/
 
     // Create a new Unit of a certain type at the desired coordinates
     public void initUnit(string kind, HexCoordinates c, int index)
@@ -114,11 +101,14 @@ public class UnitHandler : MonoBehaviour
             state = inputState.MOVE;
         }
     }
-    /*
+    
+    // End's the player's turn
     void endTurn()
     {
-        TurnHandler.playerEndTurn();
-    }*/
+        Debug.Log("turn over?");
+        playerTurn = false;
+        setUIvis(false);
+    }
 
     // Move a unit to the target coordinates
     public static void moveUnit(HexCoordinates dest)
@@ -166,12 +156,18 @@ public class UnitHandler : MonoBehaviour
             handleClick();
         }
     }
-    /*
+    
     // Activate or deactivate the UI
-    public static void setUIvis(bool active)
+    private void setUIvis(bool active)
     {
         uiPanel.SetActive(active);
-    }*/
+    }
+
+    void setButtonsVis(bool active)
+    {
+        moveButton.gameObject.SetActive(active);
+        marchButton.gameObject.SetActive(active);
+    }
 
     // Check to see if the user's click was on an object, and select that object if so
     void handleClick()
@@ -186,8 +182,7 @@ public class UnitHandler : MonoBehaviour
             int hp = units[selected].health;
             int mHP = units[selected].maxHealth;
             hpText.text = "HP: " + hp + "/" + mHP;
-            moveButton.gameObject.SetActive(true);
-            marchButton.gameObject.SetActive(true);
+            setButtonsVis(true);
             //Debug.Log(name);
         }
         // If mouse click is on UI section of canvas
@@ -198,8 +193,7 @@ public class UnitHandler : MonoBehaviour
         else
         {
             selected = -1;
-            moveButton.gameObject.SetActive(false);
-            marchButton.gameObject.SetActive(false);
+            setButtonsVis(false);
             unitText.text = "No unit selected";
             hpText.text = "";
         }
