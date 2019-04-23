@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bow.cs" />
     <Compile Include="Assets\Scripts\CameraRig.cs" />
+    <Compile Include="Assets\Scripts\Enemies.cs" />
     <Compile Include="Assets\Scripts\HexCell.cs" />
     <Compile Include="Assets\Scripts\HexCoordinates.cs" />
     <Compile Include="Assets\Scripts\HexGrid.cs" />
