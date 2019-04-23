@@ -80,13 +80,19 @@ public class HexGrid : MonoBehaviour
             TouchCell(hit.point, Color.white);
         }
     }
+
+    // Finds a HexCell object from its HexCoordinates
+    public HexCell cellFromHC(HexCoordinates coords)
+    {
+        int index = coords.X + coords.Z * width + coords.Z / 2;
+        return cells[index];
+    }
     
     public void TouchCell(Vector3 position, Color color)
     {
         position = transform.InverseTransformPoint(position);
         HexCoordinates coords = HexCoordinates.FromPosition(position);
-        int index = coords.X + coords.Z * width + coords.Z / 2;
-        HexCell cell = cells[index];
+        HexCell cell = cellFromHC(coords);
         cell.color = color;
         hexMesh.Triangulate(cells);
 

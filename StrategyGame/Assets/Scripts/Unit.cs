@@ -15,6 +15,7 @@ public class Unit : ScriptableObject
     // Status
     public int health { get; protected set; }
     public bool moved;
+    public bool alignment;
     // The actual GameObject
     GameObject obj;
 

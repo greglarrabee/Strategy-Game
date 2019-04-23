@@ -91,7 +91,7 @@ public struct HexCoordinates
 
     // Returns a new HexCoordinates one tile away in the specified direction
     // Directions start with due east and go clockwise
-    public static  HexCoordinates translate(HexCoordinates start, int dir)
+    public static HexCoordinates translate(HexCoordinates start, int dir)
     {
         HexCoordinates dXZ;
         switch(dir)
