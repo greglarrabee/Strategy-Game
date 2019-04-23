@@ -12,7 +12,7 @@ public class Enemies : MonoBehaviour
         unitMat = (Material)Resources.Load("Materials/UnitMaterial");
 
         pillarMesh = (Mesh)Resources.Load<Mesh>("Models/pillar");
-        Unit enemy = new Unit();
+        Unit enemy = ScriptableObject.CreateInstance<Pillar>();
         enemy.setCoords(new HexCoordinates(0, 5));
         enemy.id = 4;
         enemy.meshHeight = ((Mesh)pillarMesh).bounds.size.y;

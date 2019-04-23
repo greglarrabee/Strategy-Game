@@ -61,7 +61,7 @@ public class HexGrid : MonoBehaviour
         label.rectTransform.anchoredPosition = new Vector2(position.x, position.z);
         label.text = cell.coordinates.ToStringOnSeparateLines();
     }
-    /*
+    
     // Touching Cells
     private void Update()
     {
@@ -77,10 +77,10 @@ public class HexGrid : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(inputRay, out hit))
         {
-            TouchCell(hit.point);
+            TouchCell(hit.point, Color.white);
         }
     }
-    */
+    
     public void TouchCell(Vector3 position, Color color)
     {
         position = transform.InverseTransformPoint(position);
@@ -90,7 +90,7 @@ public class HexGrid : MonoBehaviour
         cell.color = color;
         hexMesh.Triangulate(cells);
 
-        Debug.Log("touched at " + coords.ToString());
+        //Debug.Log("touched at " + coords.ToString());
 
         UnitHandler.moveUnit(coords);
 
