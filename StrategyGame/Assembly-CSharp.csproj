@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\Unit.cs" />
     <Compile Include="Assets\Scripts\UnitHandler.cs" />
     <None Include="Assets\Shaders\PostOutline.shader" />
+    <None Include="Assets\Shaders\MeshColor.shader" />
     <None Include="Assets\Shaders\DrawSimple.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/Gregory/Documents/CS/Strategy-Game/StrategyGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
