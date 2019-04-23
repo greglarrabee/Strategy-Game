@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\PostEffect.cs" />
     <Compile Include="Assets\Scripts\Spear.cs" />
     <Compile Include="Assets\Scripts\Sword.cs" />
+    <Compile Include="Assets\Scripts\TurnHandler.cs" />
     <Compile Include="Assets\Scripts\Unit.cs" />
     <Compile Include="Assets\Scripts\UnitHandler.cs" />
     <None Include="Assets\Shaders\PostOutline.shader" />
