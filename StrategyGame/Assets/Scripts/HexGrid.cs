@@ -18,7 +18,6 @@ public class HexGrid : MonoBehaviour
 
 
     public Color defaultColor = Color.white;
-    public Color touchedColor = Color.magenta;
 
     HexCoordinates touched;
 
@@ -55,14 +54,14 @@ public class HexGrid : MonoBehaviour
         cell.transform.SetParent(transform, false);
         cell.transform.localPosition = position;
         cell.coordinates = HexCoordinates.FromOffsetCoordinates(x, z);
-        cell.color = touchedColor;
+        cell.color = defaultColor;
         
         Text label = Instantiate<Text>(cellLabelPrefab);
         label.rectTransform.SetParent(gridCanvas.transform, false);
         label.rectTransform.anchoredPosition = new Vector2(position.x, position.z);
         label.text = cell.coordinates.ToStringOnSeparateLines();
     }
-
+    /*
     // Touching Cells
     private void Update()
     {
@@ -81,11 +80,15 @@ public class HexGrid : MonoBehaviour
             TouchCell(hit.point);
         }
     }
-
-    void TouchCell(Vector3 position)
+    */
+    public void TouchCell(Vector3 position, Color color)
     {
         position = transform.InverseTransformPoint(position);
         HexCoordinates coords = HexCoordinates.FromPosition(position);
+        int index = coords.X + coords.Z * width + coords.Z / 2;
+        HexCell cell = cells[index];
+        cell.color = color;
+        hexMesh.Triangulate(cells);
 
         Debug.Log("touched at " + coords.ToString());
 
