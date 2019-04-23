@@ -189,6 +189,7 @@ public class UnitHandler : MonoBehaviour
         uiPanel.SetActive(active);
     }
 
+    // Show or hide the unit-specific buttons
     void setButtonsVis(bool active)
     {
         moveButton.gameObject.SetActive(active);
