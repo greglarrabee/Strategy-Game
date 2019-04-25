@@ -1,4 +1,5 @@
 ﻿// Creates and manages all the units on the board
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -52,6 +53,7 @@ public class UnitHandler : MonoBehaviour
         moveButton.onClick.AddListener(moveCheck);
         marchButton.onClick.AddListener(march);
         doneButton.onClick.AddListener(endTurn);
+        //attackButton.onClick.AddListener(attackCheck);
         setButtonsVis(false);
         // initialize input
         state = inputState.READY;
@@ -80,6 +82,7 @@ public class UnitHandler : MonoBehaviour
         newUnit.setCoords(c);
         newUnit.id = index;
         newUnit.meshHeight = ((Mesh)meshes[kind]).bounds.size.y;
+        newUnit.alignment = true;
 
         // Create GameObject for unit and set up its components
         GameObject o = new GameObject { name = kind + "Unit" + index };
@@ -198,6 +201,7 @@ public class UnitHandler : MonoBehaviour
     {
         moveButton.gameObject.SetActive(active);
         marchButton.gameObject.SetActive(active);
+        attackButton.gameObject.SetActive(active);
     }
 
     // Check to see if the user's click was on an object, and select that object if so
@@ -205,16 +209,19 @@ public class UnitHandler : MonoBehaviour
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if(Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.GetMask("Units")))
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.GetMask("Units")))
         {
             string name = hit.collider.gameObject.name;
-            selected = name[name.Length - 1] - '0';
-            unitText.text = "Selected " + name;
-            int hp = units[selected].health;
-            int mHP = units[selected].maxHealth;
-            hpText.text = "HP: " + hp + "/" + mHP;
-            setButtonsVis(true);
-            //Debug.Log(name);
+            if(!Char.IsLetter(name[name.ToCharArray().Length-1]))
+            {
+                selected = name[name.Length - 1] - '0';
+                unitText.text = "Selected " + name;
+                int hp = units[selected].health;
+                int mHP = units[selected].maxHealth;
+                hpText.text = "HP: " + hp + "/" + mHP;
+                setButtonsVis(true);
+                //Debug.Log(name);
+            }
         }
         // If mouse click is on UI section of canvas
         else if(Input.mousePosition.y < 100)
