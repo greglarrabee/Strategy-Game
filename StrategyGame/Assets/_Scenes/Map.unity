@@ -414,6 +414,7 @@ MonoBehaviour:
   numUnits: 3
   moveButton: {fileID: 427112806}
   marchButton: {fileID: 156002438}
+  attackButton: {fileID: 2013799488}
   doneButton: {fileID: 1179575945}
 --- !u!4 &196673224
 Transform:

@@ -24,6 +24,7 @@ public class UnitHandler : MonoBehaviour
     // Input
     public Button moveButton;
     public Button marchButton;
+    public Button attackButton;
     public Button doneButton;
     // To keep track of how to interpret mouse clicks
     private enum inputState
