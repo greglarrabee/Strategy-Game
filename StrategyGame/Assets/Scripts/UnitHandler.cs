@@ -18,6 +18,7 @@ public class UnitHandler : MonoBehaviour
     public GameObject uiPanel;
     public Text unitText;
     public Text hpText;
+    public Text infoText;
     // yeah
     public int numUnits;
     // Input
@@ -154,6 +155,7 @@ public class UnitHandler : MonoBehaviour
         }
     }
 
+    // Currently enemy AI
     private IEnumerator wait()
     {
         WaitForSeconds w = new WaitForSeconds(1f);
