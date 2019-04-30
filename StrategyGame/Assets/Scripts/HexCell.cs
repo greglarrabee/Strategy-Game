@@ -8,4 +8,6 @@ public class HexCell : MonoBehaviour
     public Color color;
 
     public bool occupied;
+
+    public int elevation;
 }
