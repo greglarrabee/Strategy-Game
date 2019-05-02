@@ -7,6 +7,12 @@ public class HexCell : MonoBehaviour
 
     public Color color;
 
+    public HexGrid.Terrain terrain;
+    public HexGrid.Status status;
+
+    public bool found;
+
+    public int[] path;
     public bool occupied;
 
     public int elevation;
