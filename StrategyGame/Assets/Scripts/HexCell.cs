@@ -13,4 +13,7 @@ public class HexCell : MonoBehaviour
     public bool found;
 
     public int[] path;
+    public bool occupied;
+
+    public int elevation;
 }
