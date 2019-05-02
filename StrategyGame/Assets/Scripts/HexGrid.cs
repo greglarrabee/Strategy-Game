@@ -103,4 +103,9 @@ public class HexGrid : MonoBehaviour
 
         UnitHandler.moveUnit(coords);
     }
+
+    public void refresh()
+    {
+        hexMesh.Triangulate(cells);
+    }
 }
