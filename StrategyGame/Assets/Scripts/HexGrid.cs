@@ -113,6 +113,12 @@ public class HexGrid : MonoBehaviour
         UnitHandler.moveUnit(coords);
     }
 
+
+    public void refresh()
+    {
+        hexMesh.Triangulate(cells);
+    }
+
     // Unmark the grid for a pathfind
     public void unmarkGrid()
     {
