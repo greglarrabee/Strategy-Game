@@ -133,7 +133,7 @@ public class UnitHandler : MonoBehaviour
         if(state == inputState.MOVE && selected != -1)
         {
             state = inputState.READY;
-            HexGrid.cellFromHC(units[selected].getCoords()).occupied = false;
+            HexGrid.cellFromHC(units[selected].getCoords()).status = HexGrid.Status.EMPTY;
             units[selected].setCoords(dest);
             units[selected].setPos();
             units[selected].moved = true;
@@ -221,6 +221,7 @@ public class UnitHandler : MonoBehaviour
                 hpText.text = "HP: " + hp + "/" + mHP;
                 setButtonsVis(true);
                 //Debug.Log(name);
+                Debug.Log(HexCoordinates.findMoveArea(1, units[selected].getCoords()));
             }
         }
         // If mouse click is on UI section of canvas

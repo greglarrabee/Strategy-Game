@@ -5,6 +5,16 @@ using UnityEngine.UI;
 
 public class HexGrid : MonoBehaviour
 {
+    public enum Terrain
+    {
+        FIELD, WATER, MUD
+    }
+
+    public enum Status
+    {
+        EMPTY, ALLY, ENEMY
+    }
+
     public static int width = 6;
     public static int height = 6;
 
@@ -38,7 +48,6 @@ public class HexGrid : MonoBehaviour
             }
         }
         gridReady = true;
-        Debug.Log(gridReady);
     }
 
     private void Start()
@@ -102,5 +111,14 @@ public class HexGrid : MonoBehaviour
         //Debug.Log("touched at " + coords.ToString());
 
         UnitHandler.moveUnit(coords);
+    }
+
+    // Unmark the grid for a pathfind
+    public void unmarkGrid()
+    {
+        for(int i = 0; i < cells.Length; i++)
+        {
+            cells[i].found = false;
+        }
     }
 }

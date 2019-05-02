@@ -3,6 +3,8 @@
 // All coordinates (X, Y, Z) sum to 0
 
 using UnityEngine;
+using System;
+using System.Collections.Generic;
 
 [System.Serializable]
 public struct HexCoordinates
@@ -70,7 +72,7 @@ public struct HexCoordinates
             {
                 iX = -iY - iZ;
             }
-            else if(dZ > dY)
+            else if (dZ > dY)
             {
                 iZ = -iX - iY;
             }
@@ -94,7 +96,7 @@ public struct HexCoordinates
     public static HexCoordinates translate(HexCoordinates start, int dir)
     {
         HexCoordinates dXZ;
-        switch(dir)
+        switch (dir)
         {
             case 0:
                 dXZ = new HexCoordinates(1, 0);
@@ -118,6 +120,67 @@ public struct HexCoordinates
                 return start;
         }
         return new HexCoordinates(start.X + dXZ.X, start.Z + dXZ.Z);
+    }
+
+
+    // Finds all the HexCoordinates that are a certain distance away from a center cell
+    public HexCoordinates[] cellsAtDistance(HexCoordinates center, int distance)
+    {
+        // There are distance * 6 cells a certain distance away from the center cell, assuming an infinite grid
+        HexCoordinates[] results = new HexCoordinates[distance * 6];
+        results[0] = center;
+
+        return results;
+    }
+
+    // Finds the distance between two HexCoordinates
+    public int distance(HexCoordinates a, HexCoordinates b)
+    {
+        int dx = Math.Abs(a.X - b.X);
+        int dy = Math.Abs(a.Y - b.Y);
+        int dz = Math.Abs(a.Z - b.Z);
+
+        // Distance is absolute value of greatest distance on any axis
+        int distance = 0;
+        if (dx > dy)
+            distance = dx;
+        else
+            distance = dy;
+        if (dz > distance)
+            distance = dz;
+
+        return distance;
+    }
+
+    // Finds cells that a unit on origin can move to
+    public static List<HexCoordinates> findMoveArea(int range, HexCoordinates origin)
+    {
+        // just for now
+        range = 1;
+        
+        List<HexCoordinates> movableCells = new List<HexCoordinates>();
+        HexCell curCell;
+        for(int i = 0; i < 6; i++)
+        {
+            
+            try
+            {
+                curCell = HexGrid.cellFromHC(HexCoordinates.translate(origin, i));
+                if(curCell.status == HexGrid.Status.EMPTY)
+                {
+                    curCell.path = new int[1];
+                    curCell.path[0] = i;
+                    movableCells.Add(curCell.coordinates);
+                    Debug.Log(curCell.coordinates.ToString());
+                }
+
+            }
+            catch(Exception e)
+            {
+                // Cell does not exist
+            }
+        }
+        return movableCells;
     }
 
     // For internal debugging
