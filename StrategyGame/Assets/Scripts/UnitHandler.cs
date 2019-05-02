@@ -12,6 +12,7 @@ public class UnitHandler : MonoBehaviour
     //
     public static int selected { get; private set; }
     private static Unit[] units;
+    private static List<HexCoordinates> movables;
     // Unit graphics stuff
     private Hashtable meshes;
     private Material unitMat;
@@ -129,9 +130,10 @@ public class UnitHandler : MonoBehaviour
 
     // Move a unit to the target coordinates
     public static void moveUnit(HexCoordinates dest)
-    {
-        if(state == inputState.MOVE && selected != -1)
+    {   
+        if(state == inputState.MOVE && selected != -1 && movables.Contains(dest))
         {
+
             state = inputState.READY;
             HexGrid.cellFromHC(units[selected].getCoords()).status = HexGrid.Status.EMPTY;
             units[selected].setCoords(dest);
@@ -221,7 +223,7 @@ public class UnitHandler : MonoBehaviour
                 hpText.text = "HP: " + hp + "/" + mHP;
                 setButtonsVis(true);
                 //Debug.Log(name);
-                Debug.Log(HexCoordinates.findMoveArea(1, units[selected].getCoords()));
+                movables = HexCoordinates.findMoveArea(1, units[selected].getCoords());
             }
         }
         // If mouse click is on UI section of canvas
