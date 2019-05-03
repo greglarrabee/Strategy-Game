@@ -171,7 +171,7 @@ public struct HexCoordinates
                     curCell.path = new int[1];
                     curCell.path[0] = i;
                     movableCells.Add(curCell.coordinates);
-                    Debug.Log(curCell.coordinates.ToString());
+                    //Debug.Log(curCell.coordinates.ToString());
                 }
 
             }
