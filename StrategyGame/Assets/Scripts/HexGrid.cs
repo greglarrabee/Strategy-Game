@@ -113,6 +113,14 @@ public class HexGrid : MonoBehaviour
         UnitHandler.moveUnit(coords);
     }
 
+    public HexCell getCell(Vector3 position)
+    {
+        position = transform.InverseTransformPoint(position);
+        HexCoordinates coordinates = HexCoordinates.FromPosition(position);
+        int index = coordinates.X + coordinates.Z * width + coordinates.Z / 2;
+        return cells[index];
+    }
+
 
     public void refresh()
     {

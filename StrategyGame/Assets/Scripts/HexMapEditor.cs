@@ -29,6 +29,7 @@ public class HexMapEditor : MonoBehaviour
         if (Physics.Raycast(inputRay, out hit))
         {
             hexGrid.TouchCell(hit.point, activeColor);
+            EditCell(hexGrid.getCell(hit.point));
         }
     }
 
