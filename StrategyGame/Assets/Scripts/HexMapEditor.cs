@@ -45,7 +45,7 @@ public class HexMapEditor : MonoBehaviour
 
     public void EditCell(HexCell cell) {
         cell.color = activeColor;
-        cell.elevation = activeElevation;
+        cell.Elevation = activeElevation;
         hexGrid.refresh();
     }
 
