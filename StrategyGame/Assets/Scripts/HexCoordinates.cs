@@ -134,7 +134,7 @@ public struct HexCoordinates
     }
 
     // Finds the distance between two HexCoordinates
-    public int distance(HexCoordinates a, HexCoordinates b)
+    public static int distance(HexCoordinates a, HexCoordinates b)
     {
         int dx = Math.Abs(a.X - b.X);
         int dy = Math.Abs(a.Y - b.Y);
@@ -155,30 +155,78 @@ public struct HexCoordinates
     // Finds cells that a unit on origin can move to
     public static List<HexCoordinates> findMoveArea(int range, HexCoordinates origin)
     {
-        // just for now
-        range = 1;
-        
+        HexGrid.unmarkGrid();
+        HexGrid.cellFromHC(origin).found = true;
+
+        Queue<HexCoordinates> pathCells = new Queue<HexCoordinates>();
         List<HexCoordinates> movableCells = new List<HexCoordinates>();
         HexCell curCell;
-        for(int i = 0; i < 6; i++)
-        {
-            
-            try
-            {
-                curCell = HexGrid.cellFromHC(HexCoordinates.translate(origin, i));
-                if(curCell.status == HexGrid.Status.EMPTY)
-                {
-                    curCell.path = new int[1];
-                    curCell.path[0] = i;
-                    movableCells.Add(curCell.coordinates);
-                    //Debug.Log(curCell.coordinates.ToString());
-                }
+        HexCoordinates curCoords;
+        int stepsTaken = 1;
 
-            }
-            catch(Exception e)
+        // Based on BFS algorithm from Wikipedia
+        pathCells.Enqueue(origin);
+        while(pathCells.Count > 0)
+        {
+            Debug.Log("started new layer");
+            curCoords = pathCells.Dequeue();
+            // Stop searching once you reach the allowed range
+            stepsTaken = HexCoordinates.distance(curCoords, origin) + 1;
+            Debug.Log(stepsTaken);
+            if (stepsTaken >= range)
             {
-                // Cell does not exist
+                Debug.Log("hit range");
+                return movableCells;
             }
+            for(int i = 0; i < 6; i++)
+            {
+                Debug.Log("checking new tile from " + curCoords.ToString());
+                
+                bool checkCell = false;
+                try
+                {
+                    curCell = HexGrid.cellFromHC(HexCoordinates.translate(curCoords, i));
+                    Debug.Log(curCell.coordinates.ToString());
+                    checkCell = true;
+                }
+                catch (Exception e)
+                {
+                    // Cell doesn't exist
+                    curCell = null;
+                }
+                if(checkCell && !curCell.found)
+                {
+                    if(curCell.status == HexGrid.Status.EMPTY)
+                    {
+                        movableCells.Add(curCell.coordinates);
+                        Debug.Log("empty");
+                    }
+                    if(curCell.status == HexGrid.Status.EMPTY || curCell.status == HexGrid.Status.ALLY)
+                    {
+                        Debug.Log("starting queue proc. steps: " + stepsTaken);
+                        curCell.path = new int[stepsTaken];
+                        if (stepsTaken == 1)
+                        {
+                            curCell.path[0] = i;
+                        }
+                        else
+                        {
+                            HexCell prevCell = HexGrid.cellFromHC(curCoords);
+                            for(int j = 0; j < stepsTaken-1; j++)
+                            {
+                                Debug.Log(j + " " + stepsTaken);
+                                Debug.Log(prevCell.path[j]);
+                                curCell.path[j] = prevCell.path[j];
+                            }
+                            curCell.path[curCell.path.Length - 1] = i;
+                        }
+                        pathCells.Enqueue(curCell.coordinates);
+                        Debug.Log("Enqueued " + curCell.coordinates.ToString());
+                    }
+                    curCell.found = true;
+                }
+            }
+            Debug.Log("Count: " + pathCells.Count);
         }
         return movableCells;
     }

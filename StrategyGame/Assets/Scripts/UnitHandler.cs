@@ -223,7 +223,7 @@ public class UnitHandler : MonoBehaviour
                 hpText.text = "HP: " + hp + "/" + mHP;
                 setButtonsVis(true);
                 //Debug.Log(name);
-                movables = HexCoordinates.findMoveArea(1, units[selected].getCoords());
+                movables = HexCoordinates.findMoveArea(3, units[selected].getCoords());
             }
         }
         // If mouse click is on UI section of canvas

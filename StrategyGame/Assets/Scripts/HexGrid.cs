@@ -120,7 +120,7 @@ public class HexGrid : MonoBehaviour
     }
 
     // Unmark the grid for a pathfind
-    public void unmarkGrid()
+    public static void unmarkGrid()
     {
         for(int i = 0; i < cells.Length; i++)
         {
