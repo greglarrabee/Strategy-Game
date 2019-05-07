@@ -14,5 +14,20 @@ public class HexCell : MonoBehaviour
 
     public int[] path;
 
-    public int elevation;
+    int elevation;
+
+    public int Elevation
+    {
+        get
+        {
+            return (elevation);
+        }
+        set
+        {
+            elevation = value;
+            Vector3 position = transform.localPosition;
+            position.y = value * HexMetrics.elevationStep;
+            transform.localPosition = position;
+        }
+    }
 }
