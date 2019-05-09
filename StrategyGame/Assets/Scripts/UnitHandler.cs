@@ -162,6 +162,7 @@ public class UnitHandler : MonoBehaviour
         units[selected].moved = true;
         playerTurn = true;
         state = inputState.READY;
+        HexGrid.cellFromHC(curDest).status = HexGrid.Status.ALLY;
     }
 
     // Currently enemy AI
