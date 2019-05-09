@@ -13,6 +13,7 @@ public class UnitHandler : MonoBehaviour
     public static int selected { get; private set; }
     private static Unit[] units;
     private static List<HexCoordinates> movables;
+    private static HexCoordinates curDest;
     // Unit graphics stuff
     private Hashtable meshes;
     private Material unitMat;
@@ -25,14 +26,15 @@ public class UnitHandler : MonoBehaviour
     public int numUnits;
     // Input
     public Button moveButton;
-    public Button marchButton;
+    //public Button marchButton;
     public Button attackButton;
     public Button doneButton;
     // To keep track of how to interpret mouse clicks
     private enum inputState
     {
         READY,
-        MOVE
+        MOVE,
+        MOVING
     };
     private static inputState state;
 
@@ -52,7 +54,7 @@ public class UnitHandler : MonoBehaviour
         selected = -1;
         // Prepare buttons
         moveButton.onClick.AddListener(moveCheck);
-        marchButton.onClick.AddListener(march);
+        /*marchButton.onClick.AddListener(march);*/
         doneButton.onClick.AddListener(endTurn);
         //attackButton.onClick.AddListener(attackCheck);
         setButtonsVis(false);
@@ -133,32 +135,33 @@ public class UnitHandler : MonoBehaviour
     {   
         if(state == inputState.MOVE && selected != -1 && movables.Contains(dest))
         {
-
-            state = inputState.READY;
-            HexGrid.cellFromHC(units[selected].getCoords()).status = HexGrid.Status.EMPTY;
-            units[selected].setCoords(dest);
-            units[selected].setPos();
-            units[selected].moved = true;
+            state = inputState.MOVING;
+            curDest = dest;
         }
     }
 
     // I know, I know
-    private void march()
+    private void move(int[] steps)
     {
-        StartCoroutine(actuallyMarch());
+        HexGrid.cellFromHC(units[selected].getCoords()).status = HexGrid.Status.EMPTY;
+        StartCoroutine(actuallyMarch(steps));
     }
 
-    // Move the unit in a circle, pausing between steps
-    private IEnumerator actuallyMarch()
+    // Move the unit in a sequence of steps, pausing between steps
+    private IEnumerator actuallyMarch(int[] steps)
     {
-        WaitForSeconds wait = new WaitForSeconds(0.5f);
-        for(int i = 0; i < 6; i++)
+        playerTurn = false;
+        WaitForSeconds wait = new WaitForSeconds(0.4f);
+        for(int i = 0; i < steps.Length; i++)
         {
-            HexCoordinates next = HexCoordinates.translate(units[selected].getCoords(), i);
+            HexCoordinates next = HexCoordinates.translate(units[selected].getCoords(), steps[i]);
             units[selected].setCoords(next);
             units[selected].setPos();
             yield return wait;
         }
+        units[selected].moved = true;
+        playerTurn = true;
+        state = inputState.READY;
     }
 
     // Currently enemy AI
@@ -174,6 +177,10 @@ public class UnitHandler : MonoBehaviour
         if(playerTurn)
         {
             playerInput();
+            if(state == inputState.MOVING)
+            {
+                move(HexGrid.cellFromHC(curDest).path);
+            }
         }
         else
         {
@@ -202,7 +209,7 @@ public class UnitHandler : MonoBehaviour
     void setButtonsVis(bool active)
     {
         moveButton.gameObject.SetActive(active);
-        marchButton.gameObject.SetActive(active);
+        //marchButton.gameObject.SetActive(active);
         attackButton.gameObject.SetActive(active);
     }
 
