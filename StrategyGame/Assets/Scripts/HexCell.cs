@@ -16,6 +16,9 @@ public class HexCell : MonoBehaviour
 
     int elevation;
 
+    [SerializeField]
+    HexCell[] neighbors;
+
     public int Elevation
     {
         get
@@ -30,4 +33,10 @@ public class HexCell : MonoBehaviour
             transform.localPosition = position;
         }
     }
+
+    public HexCell getNeighbor(HexDirection direction)
+    {
+        return neighbors[(int)direction];
+    }
+
 }
