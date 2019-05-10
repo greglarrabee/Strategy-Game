@@ -26,6 +26,8 @@ public class Enemies : MonoBehaviour
         o.AddComponent<MeshCollider>();
         o.gameObject.layer = LayerMask.NameToLayer("Units");
 
+        enemy.alignment = false;
+
         // Attach GameObject to enemy
         enemy.setObject(o);
         enemy.setPos();
