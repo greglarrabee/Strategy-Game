@@ -154,7 +154,7 @@ public class UnitHandler : MonoBehaviour
         WaitForSeconds wait = new WaitForSeconds(0.4f);
         for(int i = 0; i < steps.Length; i++)
         {
-            HexCoordinates next = HexCoordinates.translate(units[selected].getCoords(), steps[i]);
+            HexCoordinates next = HexGrid.cellFromHC(units[selected].getCoords()).getNeighbor((HexDirection)steps[i]).coordinates;
             units[selected].setCoords(next);
             units[selected].setPos();
             yield return wait;
