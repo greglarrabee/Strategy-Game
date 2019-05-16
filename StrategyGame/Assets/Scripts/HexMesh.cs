@@ -77,6 +77,12 @@ public class HexMesh : MonoBehaviour
         AddTriangle(center, v1, v2);
         AddTriangleColor(cell.color);
 
+        if (direction <= HexDirection.SE)
+        {
+            TriangulateConnection(direction, cell, v1, v2);
+        }
+
+        /*
         Vector3 bridge = HexMetrics.GetBridge(direction);
         Vector3 v3 = v1 + bridge;
         Vector3 v4 = v2 + bridge;
@@ -103,10 +109,36 @@ public class HexMesh : MonoBehaviour
             bridgeColor,
             (cell.color + neighbor.color + nextNeighbor.color) / 3f
         );
+        */
     }
 
-    // Add a single triangle to the vertex and triangle arrays
-    public void AddTriangle(Vector3 v1, Vector3 v2, Vector3 v3)
+    void TriangulateConnection(
+        HexDirection direction, HexCell cell, Vector3 v1, Vector3 v2
+    )
+    {
+        HexCell neighbor = cell.getNeighbor(direction);
+        if (neighbor == null)
+        {
+            return;
+        }
+
+        Vector3 bridge = HexMetrics.GetBridge(direction);
+        Vector3 v3 = v1 + bridge;
+        Vector3 v4 = v2 + bridge;
+
+        AddQuad(v1, v2, v3, v4);
+        AddQuadColor(cell.color, neighbor.color);
+
+        HexCell nextNeighbor = cell.getNeighbor(direction.Next());
+        if (direction <= HexDirection.E && nextNeighbor != null)
+        {
+            AddTriangle(v2, v4, v2 + HexMetrics.GetBridge(direction.Next()));
+            AddTriangleColor(cell.color, neighbor.color, nextNeighbor.color);
+        }
+    }
+
+        // Add a single triangle to the vertex and triangle arrays
+        public void AddTriangle(Vector3 v1, Vector3 v2, Vector3 v3)
     {
         int vertexIndex = vertices.Count;
         vertices.Add(v1);
