@@ -10,5 +10,6 @@ public class Sword : Unit
         maxHealth = 50;
         health = maxHealth;
         moved = false;
+        acted = false;
     }
 }

@@ -12,7 +12,7 @@ public class UnitHandler : MonoBehaviour
     //
     public static int selected { get; private set; }
     private static Unit[] units;
-    private static List<HexCoordinates> movables;
+    private static List<HexCoordinates> interactables;
     private static HexCoordinates curDest;
     // Unit graphics stuff
     private Hashtable meshes;
@@ -34,6 +34,7 @@ public class UnitHandler : MonoBehaviour
     {
         READY,
         MOVE,
+        ATTACK,
         MOVING
     };
     private static inputState state;
@@ -56,7 +57,7 @@ public class UnitHandler : MonoBehaviour
         moveButton.onClick.AddListener(moveCheck);
         /*marchButton.onClick.AddListener(march);*/
         doneButton.onClick.AddListener(endTurn);
-        //attackButton.onClick.AddListener(attackCheck);
+        attackButton.onClick.AddListener(attackCheck);
         setButtonsVis(false);
         // initialize input
         state = inputState.READY;
@@ -110,6 +111,15 @@ public class UnitHandler : MonoBehaviour
             state = inputState.MOVE;
         }
     }
+
+    void attackCheck()
+    {
+        if(selected != -1 && !units[selected].acted)
+        {
+            state = inputState.ATTACK;
+            interactables = HexCoordinates.cellSearch(units[selected].atkRange, units[selected].getCoords(), 2);
+        }
+    }
     
     // End's the player's turn
     void endTurn()
@@ -127,13 +137,14 @@ public class UnitHandler : MonoBehaviour
             units[i].moved = false;
         }
         playerTurn = true;
+        state = inputState.READY;
         setUIvis(true);
     }
 
     // Move a unit to the target coordinates
     public static void moveUnit(HexCoordinates dest)
     {   
-        if(state == inputState.MOVE && selected != -1 && movables.Contains(dest))
+        if(state == inputState.MOVE && selected != -1 && interactables.Contains(dest))
         {
             state = inputState.MOVING;
             curDest = dest;
@@ -231,7 +242,7 @@ public class UnitHandler : MonoBehaviour
                 hpText.text = "HP: " + hp + "/" + mHP;
                 setButtonsVis(true);
                 //Debug.Log(name);
-                movables = HexCoordinates.findMoveArea(3, units[selected].getCoords());
+                interactables = HexCoordinates.cellSearch(units[selected].moveRange, units[selected].getCoords(), 0);
             }
         }
         // If mouse click is on UI section of canvas

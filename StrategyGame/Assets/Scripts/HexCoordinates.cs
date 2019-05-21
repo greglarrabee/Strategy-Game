@@ -122,17 +122,6 @@ public struct HexCoordinates
         return new HexCoordinates(start.X + dXZ.X, start.Z + dXZ.Z);
     }
 
-
-    // Finds all the HexCoordinates that are a certain distance away from a center cell
-    public HexCoordinates[] cellsAtDistance(HexCoordinates center, int distance)
-    {
-        // There are distance * 6 cells a certain distance away from the center cell, assuming an infinite grid
-        HexCoordinates[] results = new HexCoordinates[distance * 6];
-        results[0] = center;
-
-        return results;
-    }
-
     // Finds the distance between two HexCoordinates
     public static int distance(HexCoordinates a, HexCoordinates b)
     {
@@ -153,14 +142,16 @@ public struct HexCoordinates
     }
 
     // Finds cells that a unit on origin can move to
-    public static List<HexCoordinates> findMoveArea(int range, HexCoordinates origin)
+    public static List<HexCoordinates> cellSearch(int range, HexCoordinates origin, int searchStyle)
     {
+        // searchStyle defines what search algorithm should look for
+        // 0: cells ally can move to, 1: cells enemy can move to, 2: cells ally can attack, 3: cells enemy can attack
         HexGrid.unmarkGrid();
         HexCell orCell = HexGrid.cellFromHC(origin);
         orCell.found = true;
 
         Queue<HexCell> pathCells = new Queue<HexCell>();
-        List<HexCoordinates> movableCells = new List<HexCoordinates>();
+        List<HexCoordinates> resultCells = new List<HexCoordinates>();
         HexCell nextCell;
         HexCell curCell;
         int stepsTaken = 1;
@@ -173,37 +164,33 @@ public struct HexCoordinates
             curCell = pathCells.Dequeue();
             // Stop searching once you reach the allowed range
             stepsTaken = HexCoordinates.distance(curCell.coordinates, origin) + 1;
+            //Debug.Log("cell: " + curCell.coordinates + " steps: " + stepsTaken);
             //Debug.Log(stepsTaken);
-            if (stepsTaken >= range)
+            if (stepsTaken > range)
             {
-                Debug.Log("hit range");
-                return movableCells;
+                //Debug.Log("hit range");
+                return resultCells;
             }
             for(int i = 0; i < 6; i++)
             {
                 //Debug.Log("checking new tile from " + curCell.coordinates.ToString());
                 
-                bool checkCell = false;
-                try
+                nextCell = curCell.getNeighbor((HexDirection)i);
+
+                if(nextCell != null && !nextCell.found)
                 {
-                    nextCell = curCell.getNeighbor((HexDirection)i);
-                    Debug.Log(nextCell.coordinates.ToString());
-                    checkCell = true;
-                }
-                catch (Exception e)
-                {
-                    // Cell doesn't exist
-                    nextCell = null;
-                }
-                if(checkCell && !nextCell.found)
-                {
-                    if(nextCell.status == HexGrid.Status.EMPTY)
+                    // Inspect this cell
+                    // If looking for movement range, add empty cells to set of movable cells
+                    if((searchStyle == 0 || searchStyle == 1) && nextCell.status == HexGrid.Status.EMPTY)
                     {
-                        movableCells.Add(nextCell.coordinates);
-                        Debug.Log(nextCell.coordinates);
+                        resultCells.Add(nextCell.coordinates);
+                        //Debug.Log(nextCell.coordinates);
                     }
-                    if(nextCell.status == HexGrid.Status.EMPTY || nextCell.status == HexGrid.Status.ALLY)
+                    // If looking for movement range, can move through any cell not occupied by other side
+                    if(nextCell.status == HexGrid.Status.EMPTY || ((searchStyle == 0 && nextCell.status == HexGrid.Status.ALLY) ||
+                                                                   (searchStyle == 1 && nextCell.status == HexGrid.Status.ENEMY)))
                     {
+                        // Give this cell a path
                         //Debug.Log("starting queue proc. steps: " + stepsTaken);
                         nextCell.path = new int[stepsTaken];
                         if (stepsTaken == 1)
@@ -223,12 +210,29 @@ public struct HexCoordinates
                         pathCells.Enqueue(nextCell);
                         //Debug.Log("Enqueued " + nextCell.coordinates.ToString());
                     }
+                    // If looking for attack range, only check cell if it is at the right range
+                    //Debug.Log(stepsTaken + ", " + searchStyle + ", " + range);
+                    if((searchStyle == 2 || searchStyle == 3) && stepsTaken == range)
+                    {
+                        //Debug.Log("at range at cell " + nextCell.coordinates);
+                        // See if cell has a unit from the other team on it
+                        if(searchStyle == 2 && nextCell.status == HexGrid.Status.ENEMY)
+                        {
+                            resultCells.Add(nextCell.coordinates);
+                            Debug.Log(nextCell.coordinates.ToString());
+                        }
+                        if (searchStyle == 3 && nextCell.status == HexGrid.Status.ALLY)
+                        {
+                            resultCells.Add(nextCell.coordinates);
+                            Debug.Log(nextCell.coordinates.ToString());
+                        }
+                    }
                     nextCell.found = true;
                 }
             }
             //Debug.Log("Count: " + pathCells.Count);
         }
-        return movableCells;
+        return resultCells;
     }
 
     // For internal debugging

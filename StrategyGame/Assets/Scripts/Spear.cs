@@ -10,5 +10,6 @@ public class Spear : Unit
         maxHealth = 40;
         health = maxHealth;
         moved = false;
+        acted = false;
     }
 }
