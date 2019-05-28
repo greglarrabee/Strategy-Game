@@ -1,51 +1,49 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PostEffect : MonoBehaviour
+public class PostEffect: MonoBehaviour
 {
-    Camera AttachedCamera;
-    public Shader Post_Outline;
+    // Thanks to Will Weissman's tutorial
+
+    Camera attachedCamera;
+    public Shader PostOutline;
     public Shader DrawSimple;
-    Camera TempCam;
-    Material Post_Mat;
-    // public RenderTexture TempRT;
+    Camera tempCam;
+    Material PostMat;
+    public RenderTexture tempRT;
 
-
-    void Start()
+    private void Start()
     {
-        AttachedCamera = GetComponent<Camera>();
-        TempCam = new GameObject().AddComponent<Camera>();
-        TempCam.enabled = false;
-        Post_Mat = new Material(Post_Outline);
+        attachedCamera = GetComponent<Camera>();
+        tempCam = new GameObject().AddComponent<Camera>();
+        tempCam.enabled = false;
+        PostMat = new Material(PostOutline);
     }
-
-    void OnRenderImage(RenderTexture source, RenderTexture destination)
+    
+    private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
-        //set up a temporary camera
-        TempCam.CopyFrom(AttachedCamera);
-        TempCam.clearFlags = CameraClearFlags.Color;
-        TempCam.backgroundColor = Color.black;
+        
+        // set up temp cam
+        tempCam.CopyFrom(attachedCamera);
+        tempCam.clearFlags = CameraClearFlags.Color;
+        tempCam.backgroundColor = Color.black;
 
-        //cull any layer that isn't the outline
-        TempCam.cullingMask = 1 << LayerMask.NameToLayer("Units");
+        // set up culling mask
+        tempCam.cullingMask = 1 << LayerMask.NameToLayer("Selected");
 
-        //make the temporary rendertexture
-        RenderTexture TempRT = new RenderTexture(source.width, source.height, 0, RenderTextureFormat.R8);
+        // make tempRT
+        RenderTexture tempRT = new RenderTexture(source.width, source.height, 0, RenderTextureFormat.R8);
 
-        //put it to video memory
-        TempRT.Create();
+        tempRT.Create();
 
-        //set the camera's target texture when rendering
-        TempCam.targetTexture = TempRT;
+        tempCam.targetTexture = tempRT;
 
-        //render all objects this camera can render, but with our custom shader.
-        TempCam.RenderWithShader(DrawSimple, "");
+        tempCam.RenderWithShader(DrawSimple, "");
 
-        //copy the temporary RT to the final image
-        Graphics.Blit(TempRT, destination, Post_Mat);
+        Graphics.Blit(source, destination);
+        //PostMat.SetTexture("_SceneTex", source);
+        Graphics.Blit(tempRT, destination, PostMat);
 
-        //release the temporary RT
-        TempRT.Release();
+        tempRT.Release();
     }
-
 }

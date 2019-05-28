@@ -119,6 +119,7 @@ public class UnitHandler : MonoBehaviour
             state = inputState.ATTACK;
             interactables = HexCoordinates.cellSearch(units[selected].atkRange, units[selected].getCoords(), 2);
         }
+        
     }
     
     // End's the player's turn
@@ -230,7 +231,7 @@ public class UnitHandler : MonoBehaviour
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.GetMask("Units")))
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.GetMask("Units", "Selected")))
         {
             string name = hit.collider.gameObject.name;
             if(!Char.IsLetter(name[name.ToCharArray().Length-1]))
@@ -243,6 +244,8 @@ public class UnitHandler : MonoBehaviour
                 setButtonsVis(true);
                 //Debug.Log(name);
                 interactables = HexCoordinates.cellSearch(units[selected].moveRange, units[selected].getCoords(), 0);
+                // move unit to highlight layer
+                units[selected].getObj().layer = LayerMask.NameToLayer("Selected");
             }
         }
         // If mouse click is on UI section of canvas
@@ -252,6 +255,7 @@ public class UnitHandler : MonoBehaviour
         }
         else
         {
+            units[selected].getObj().layer = LayerMask.NameToLayer("Units");
             selected = -1;
             setButtonsVis(false);
             unitText.text = "No unit selected";

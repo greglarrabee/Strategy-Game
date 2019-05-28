@@ -39,6 +39,11 @@ public class Unit : ScriptableObject
         obj = o;
     }
 
+    public GameObject getObj()
+    {
+        return obj;
+    }
+
     public void setCoords(HexCoordinates c)
     {
         coords = c;
