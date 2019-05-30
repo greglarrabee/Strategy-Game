@@ -49,4 +49,15 @@ public class HexMapEditor : MonoBehaviour
         hexGrid.refresh();
     }
 
+    public void Save()
+    {
+        
+    }
+
+    public void Load()
+    {
+
+    }
+
 }
+
