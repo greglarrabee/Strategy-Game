@@ -15,6 +15,7 @@ public class Unit : ScriptableObject
     // Status
     public int health { get; protected set; }
     public bool moved;
+    public bool acted;
     public bool alignment;
     // The actual GameObject
     GameObject obj;
@@ -36,6 +37,11 @@ public class Unit : ScriptableObject
     public void setObject(GameObject o)
     {
         obj = o;
+    }
+
+    public GameObject getObj()
+    {
+        return obj;
     }
 
     public void setCoords(HexCoordinates c)

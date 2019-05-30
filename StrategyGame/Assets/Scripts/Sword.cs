@@ -5,10 +5,11 @@ public class Sword : Unit
 {
     public Sword()
     {
-        moveRange = 2;
+        moveRange = 3;
         atkRange = 1;
         maxHealth = 50;
         health = maxHealth;
         moved = false;
+        acted = false;
     }
 }

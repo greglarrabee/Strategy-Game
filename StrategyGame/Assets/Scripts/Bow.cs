@@ -10,5 +10,6 @@ public class Bow : Unit
         maxHealth = 30;
         health = maxHealth;
         moved = false;
+        acted = false;
     }
 }
