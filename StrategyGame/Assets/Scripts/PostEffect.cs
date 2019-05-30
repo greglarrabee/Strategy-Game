@@ -7,43 +7,56 @@ public class PostEffect: MonoBehaviour
 
     Camera attachedCamera;
     public Shader PostOutline;
+    public Shader YellowOutline;
     public Shader DrawSimple;
-    Camera tempCam;
+    Camera tempCam1;
+    Camera tempCam2;
     Material PostMat;
-    public RenderTexture tempRT;
+    Material PostMat2;
 
     private void Start()
     {
         attachedCamera = GetComponent<Camera>();
-        tempCam = new GameObject().AddComponent<Camera>();
-        tempCam.enabled = false;
+        tempCam1 = new GameObject().AddComponent<Camera>();
+        tempCam1.enabled = false;
+        tempCam2 = new GameObject().AddComponent<Camera>();
+        tempCam2.enabled = false;
         PostMat = new Material(PostOutline);
+        PostMat2 = new Material(YellowOutline);
     }
     
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
         
-        // set up temp cam
-        tempCam.CopyFrom(attachedCamera);
-        tempCam.clearFlags = CameraClearFlags.Color;
-        tempCam.backgroundColor = Color.black;
+        // set up temp cams
+        tempCam1.CopyFrom(attachedCamera);
+        tempCam1.clearFlags = CameraClearFlags.Color;
+        tempCam1.backgroundColor = Color.black;
+        tempCam2.CopyFrom(tempCam1);
 
         // set up culling mask
-        tempCam.cullingMask = 1 << LayerMask.NameToLayer("Selected");
+        tempCam1.cullingMask = 1 << LayerMask.NameToLayer("Selected");
+        tempCam2.cullingMask = 1 << LayerMask.NameToLayer("Targetable");
 
-        // make tempRT
+        // make tempRTs
         RenderTexture tempRT = new RenderTexture(source.width, source.height, 0, RenderTextureFormat.R8);
+        RenderTexture tempRT2 = new RenderTexture(source.width, source.height, 0, RenderTextureFormat.R8);
 
         tempRT.Create();
+        tempRT2.Create();
 
-        tempCam.targetTexture = tempRT;
+        tempCam1.targetTexture = tempRT;
+        tempCam2.targetTexture = tempRT2;
 
-        tempCam.RenderWithShader(DrawSimple, "");
+        tempCam1.RenderWithShader(DrawSimple, "");
+        tempCam2.RenderWithShader(DrawSimple, "");
 
         Graphics.Blit(source, destination);
         //PostMat.SetTexture("_SceneTex", source);
         Graphics.Blit(tempRT, destination, PostMat);
+        Graphics.Blit(tempRT2, destination, PostMat2);
 
         tempRT.Release();
+        tempRT2.Release();
     }
 }

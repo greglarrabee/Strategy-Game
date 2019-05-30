@@ -118,6 +118,12 @@ public class UnitHandler : MonoBehaviour
         {
             state = inputState.ATTACK;
             interactables = HexCoordinates.cellSearch(units[selected].atkRange, units[selected].getCoords(), 2);
+            // Highlight specific enemy
+            int count = interactables.Count;
+            for(int i = 0; i < count; i++)
+            {
+                Enemies.enemyAtCoords(interactables[i]).getObj().layer = LayerMask.NameToLayer("Targetable");
+            }
         }
         
     }
@@ -128,6 +134,10 @@ public class UnitHandler : MonoBehaviour
         selected = -1;
         playerTurn = false;
         setUIvis(false);
+        for(int i = 0; i < units.Length; i++)
+        {
+            units[i].getObj().layer = LayerMask.NameToLayer("Units");
+        }
     }
 
     // Sets things up for player's turn
@@ -173,7 +183,13 @@ public class UnitHandler : MonoBehaviour
         }
         units[selected].moved = true;
         playerTurn = true;
-        state = inputState.READY;
+        if(state == inputState.MOVING)
+            state = inputState.READY;
+        // All cells moved through will be marked as ALLY thanks to setPos()
+        for(int i = 0; i < interactables.Count; i++)
+        {
+            HexGrid.cellFromHC(interactables[i]).status = HexGrid.Status.EMPTY;
+        }
         HexGrid.cellFromHC(curDest).status = HexGrid.Status.ALLY;
     }
 
@@ -205,10 +221,17 @@ public class UnitHandler : MonoBehaviour
     public void playerInput()
     {
         // Check for a click
-        if(Input.GetMouseButtonDown(0) && state == inputState.READY)
+        if(Input.GetMouseButtonDown(0))
         {
-            //Debug.Log(state);
-            handleClick();
+            //Debug.Log("click " + state);
+            if(state == inputState.READY)
+            {
+                handleClick();
+            }
+            if(state == inputState.ATTACK)
+            {
+                attackClick();
+            }
         }
     }
     
@@ -226,6 +249,24 @@ public class UnitHandler : MonoBehaviour
         attackButton.gameObject.SetActive(active);
     }
 
+    // Raycasts to see if user's click was on targetable object
+    void attackClick()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.GetMask("Targetable")))
+        {
+            string name = hit.collider.gameObject.name;
+            // Get number of enemy clicked on
+            char numChar = name[0];
+            int num = numChar - '0';
+            Unit enemy = Enemies.enemies[num];
+            enemy.getObj().layer = LayerMask.NameToLayer("Units");
+            defeat(enemy);
+            state = inputState.READY;
+        }
+    }
+
     // Check to see if the user's click was on an object, and select that object if so
     void handleClick()
     {
@@ -234,9 +275,20 @@ public class UnitHandler : MonoBehaviour
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.GetMask("Units", "Selected")))
         {
             string name = hit.collider.gameObject.name;
+            // If object is a player-controlled one
             if(!Char.IsLetter(name[name.ToCharArray().Length-1]))
             {
-                selected = name[name.Length - 1] - '0';
+                // If this unit isn't selected...
+                if (hit.collider.gameObject.layer != LayerMask.NameToLayer("Selected"))
+                {
+                    // Put the old unit back off the selected layer
+                    if(selected != -1)
+                    {
+                        units[selected].getObj().layer = LayerMask.NameToLayer("Units");
+                    }
+                    // Update the selected index
+                    selected = name[name.Length - 1] - '0';
+                }
                 unitText.text = "Selected " + name;
                 int hp = units[selected].health;
                 int mHP = units[selected].maxHealth;
@@ -255,11 +307,38 @@ public class UnitHandler : MonoBehaviour
         }
         else
         {
-            units[selected].getObj().layer = LayerMask.NameToLayer("Units");
+            if(selected > -1)
+                units[selected].getObj().layer = LayerMask.NameToLayer("Units");
             selected = -1;
             setButtonsVis(false);
             unitText.text = "No unit selected";
             hpText.text = "";
         }
+    }
+
+    void defeat(Unit defeated)
+    {
+        Debug.Log("Unit " + defeated.name + " defeated");
+        //StartCoroutine(vanish(defeated));
+        Destroy(defeated.getObj());
+        Destroy(defeated);
+    }
+
+    // Makes a unit slowly vanish-- not the right approach currently w/ pointers and things
+    IEnumerator vanish(Unit defeated)
+    {
+        MeshRenderer renderer = defeated.getObj().GetComponent<MeshRenderer>();
+        Color col;
+        WaitForSeconds wait = new WaitForSeconds(0.002f);
+        for(int i = 0; i < 240; i++)
+        {
+            col = renderer.material.color;
+            col.a -= (1.0f / 250.0f);
+            renderer.material.color = col;
+            Debug.Log(renderer.material.color);
+            yield return wait;
+        }
+        Debug.Log("finished loop");
+        Destroy(defeated);
     }
 }

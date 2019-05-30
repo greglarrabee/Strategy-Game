@@ -1396,8 +1396,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PostOutline: {fileID: 4800000, guid: ba3233e14039eb84996d835d5222b96c, type: 3}
+  YellowOutline: {fileID: 4800000, guid: d6e58e3018bbe5d46a5fed9bf80b47b4, type: 3}
   DrawSimple: {fileID: 4800000, guid: 2d253eef03eaad64990105bd5aa59aee, type: 3}
-  tempRT: {fileID: 0}
 --- !u!20 &534669904
 Camera:
   m_ObjectHideFlags: 0
@@ -1428,7 +1428,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 1815
+    m_Bits: 3863
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

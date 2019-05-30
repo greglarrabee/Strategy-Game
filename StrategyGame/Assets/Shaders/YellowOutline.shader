@@ -77,19 +77,19 @@
 				}
 
 				//output some intensity of teal
-				return ColorIntensityInRadius * half4(0,1,1,1);
+				return ColorIntensityInRadius * half4(1,1,0,1);
 		}
 
 	ENDCG
 }
-//end pass        
+//end pass
 	}
 		//end subshader
 }
 //end shader
 
-
-/*Blurred version (not working, not a priority atm)
+/*
+Blurred version (not working, not a priority atm)
 Shader "Custom/Post Outline"
 {
 	Properties
@@ -181,7 +181,7 @@ Shader "Custom/Post Outline"
 
 				return o;
 			}
-			
+
 			half4 frag(v2f i) : COLOR
 			{
 				int numIterations = 20;

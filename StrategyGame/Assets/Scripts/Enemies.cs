@@ -7,6 +7,8 @@ public class Enemies : MonoBehaviour
     private Mesh pillarMesh;
     private Material unitMat;
 
+    public static Unit[] enemies;
+
     private void Awake()
     {
         unitMat = (Material)Resources.Load("Materials/UnitMaterial");
@@ -18,7 +20,7 @@ public class Enemies : MonoBehaviour
         enemy.meshHeight = ((Mesh)pillarMesh).bounds.size.y;
 
         // Create GameObject for unit and set up its components
-        GameObject o = new GameObject { name = "Pillar" };
+        GameObject o = new GameObject { name = "0Pillar" };
         MeshFilter f = o.AddComponent<MeshFilter>();
         f.mesh = pillarMesh;
         MeshRenderer r = o.AddComponent<MeshRenderer>();
@@ -31,5 +33,21 @@ public class Enemies : MonoBehaviour
         // Attach GameObject to enemy
         enemy.setObject(o);
         enemy.setPos();
+
+        // Put enemy units into the array
+        enemies = new Unit[1];
+        enemies[0] = enemy;
+    }
+
+    // Find the enemy at the specified coordinates
+    public static Unit enemyAtCoords(HexCoordinates coords)
+    {
+        int len = enemies.Length;
+        for(int i = 0; i < len; i++)
+        {
+            if (enemies[i].getCoords().Equals(coords))
+                return enemies[i];
+        }
+        return null;
     }
 }
