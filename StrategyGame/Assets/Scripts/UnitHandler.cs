@@ -134,7 +134,10 @@ public class UnitHandler : MonoBehaviour
         selected = -1;
         playerTurn = false;
         setUIvis(false);
-        for(int i = 0; i < units.Length; i++)
+        setButtonsVis(false);
+        unitText.text = "No unit selected";
+        hpText.text = "";
+        for (int i = 0; i < units.Length; i++)
         {
             units[i].getObj().layer = LayerMask.NameToLayer("Units");
         }
@@ -155,7 +158,7 @@ public class UnitHandler : MonoBehaviour
     // Move a unit to the target coordinates
     public static void moveUnit(HexCoordinates dest)
     {   
-        if(state == inputState.MOVE && selected != -1 && interactables.Contains(dest))
+        if(state == inputState.MOVE && selected != -1 && !units[selected].moved && interactables.Contains(dest))
         {
             state = inputState.MOVING;
             curDest = dest;
@@ -173,13 +176,13 @@ public class UnitHandler : MonoBehaviour
     private IEnumerator actuallyMarch(int[] steps)
     {
         playerTurn = false;
-        WaitForSeconds wait = new WaitForSeconds(0.4f);
+        WaitForSeconds w = new WaitForSeconds(0.4f);
         for(int i = 0; i < steps.Length; i++)
         {
             HexCoordinates next = HexGrid.cellFromHC(units[selected].getCoords()).getNeighbor((HexDirection)steps[i]).coordinates;
             units[selected].setCoords(next);
             units[selected].setPos();
-            yield return wait;
+            yield return w;
         }
         units[selected].moved = true;
         playerTurn = true;
